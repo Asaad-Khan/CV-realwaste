@@ -1,0 +1,10 @@
+label,train,validation,test
+Cardboard,329,66,66
+Food Organics,293,59,59
+Glass,300,60,60
+Metal,564,113,113
+Miscellaneous Trash,354,70,71
+Paper,357,72,71
+Plastic,657,132,132
+Textile Trash,228,45,45
+Vegetation,312,62,62

@@ -1,0 +1,26 @@
+2026-11-02 11:10:00,120 INFO: Run: small_cnn_20261102T061000002156Z
+2026-11-02 11:10:00,121 INFO: Training images: 3394 | Validation images: 679
+2026-11-02 11:11:00,998 INFO: Epoch 01 | train loss 1.7159 | val loss 1.5737 | val accuracy 0.4418 | val macro F1 0.4383 | 60.9s
+2026-11-02 11:11:01,004 INFO: Saved improved checkpoint.
+2026-11-02 11:11:40,467 INFO: Epoch 02 | train loss 1.4262 | val loss 1.4985 | val accuracy 0.5155 | val macro F1 0.4601 | 39.5s
+2026-11-02 11:11:40,470 INFO: Saved improved checkpoint.
+2026-11-02 11:12:20,017 INFO: Epoch 03 | train loss 1.3213 | val loss 1.3598 | val accuracy 0.5449 | val macro F1 0.4920 | 39.5s
+2026-11-02 11:12:20,019 INFO: Saved improved checkpoint.
+2026-11-02 11:12:59,013 INFO: Epoch 04 | train loss 1.2518 | val loss 1.6170 | val accuracy 0.4448 | val macro F1 0.3823 | 39.0s
+2026-11-02 11:22:19,141 INFO: Epoch 05 | train loss 1.2242 | val loss 1.2500 | val accuracy 0.5493 | val macro F1 0.5169 | 560.1s
+2026-11-02 11:22:19,144 INFO: Saved improved checkpoint.
+2026-11-02 11:24:40,899 INFO: Epoch 06 | train loss 1.1983 | val loss 1.1469 | val accuracy 0.5965 | val macro F1 0.5941 | 141.7s
+2026-11-02 11:24:40,915 INFO: Saved improved checkpoint.
+2026-11-02 11:27:26,935 INFO: Epoch 07 | train loss 1.1641 | val loss 1.3919 | val accuracy 0.5125 | val macro F1 0.4841 | 166.0s
+2026-11-02 11:28:47,942 INFO: Epoch 08 | train loss 1.1473 | val loss 1.3336 | val accuracy 0.5464 | val macro F1 0.5183 | 81.0s
+2026-11-02 11:30:37,490 INFO: Epoch 09 | train loss 1.0777 | val loss 1.0146 | val accuracy 0.6348 | val macro F1 0.6180 | 109.5s
+2026-11-02 11:30:37,505 INFO: Saved improved checkpoint.
+2026-11-02 11:31:19,546 INFO: Epoch 10 | train loss 1.0655 | val loss 1.0380 | val accuracy 0.6480 | val macro F1 0.6228 | 42.0s
+2026-11-02 11:31:19,549 INFO: Saved improved checkpoint.
+2026-11-02 11:31:58,706 INFO: Epoch 11 | train loss 1.0748 | val loss 1.1701 | val accuracy 0.6141 | val macro F1 0.6018 | 39.2s
+2026-11-02 11:32:38,606 INFO: Epoch 12 | train loss 1.0256 | val loss 1.0277 | val accuracy 0.6362 | val macro F1 0.6311 | 39.9s
+2026-11-02 11:32:38,608 INFO: Saved improved checkpoint.
+2026-11-02 11:32:38,609 INFO: Best epoch: 12
+2026-11-02 11:32:38,610 INFO: Best validation macro F1: 0.6311
+2026-11-02 11:32:38,610 INFO: Checkpoint: artifacts\small_cnn_20261102T061000002156Z\best.pt
+2026-11-02 11:32:38,610 INFO: Reports: reports\training\small_cnn_20261102T061000002156Z

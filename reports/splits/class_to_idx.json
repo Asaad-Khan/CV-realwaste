@@ -1,0 +1,11 @@
+{
+  "Cardboard": 0,
+  "Food Organics": 1,
+  "Glass": 2,
+  "Metal": 3,
+  "Miscellaneous Trash": 4,
+  "Paper": 5,
+  "Plastic": 6,
+  "Textile Trash": 7,
+  "Vegetation": 8
+}

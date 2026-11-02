@@ -1,0 +1,59 @@
+{
+  "base_url": "http://127.0.0.1:8001",
+  "checks": [
+    {
+      "check": "Model readiness",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "check": "Valid image",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    },
+    {
+      "check": "Empty file",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "check": "Invalid image content",
+      "expected_status": 400,
+      "actual_status": 400,
+      "passed": true
+    },
+    {
+      "check": "Unsupported image format",
+      "expected_status": 415,
+      "actual_status": 415,
+      "passed": true
+    },
+    {
+      "check": "File above 5 MiB",
+      "expected_status": 413,
+      "actual_status": 413,
+      "passed": true
+    },
+    {
+      "check": "Image above 12 million pixels",
+      "expected_status": 413,
+      "actual_status": 413,
+      "passed": true
+    },
+    {
+      "check": "Missing upload field",
+      "expected_status": 422,
+      "actual_status": 422,
+      "passed": true
+    },
+    {
+      "check": "Service responds after invalid requests",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true
+    }
+  ]
+}

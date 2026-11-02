@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "method": "StratifiedGroupKFold",
+  "n_folds": 7,
+  "test_fold": 0,
+  "validation_fold": 1,
+  "grouping": "Connected components of all dHash candidate pairs",
+  "candidate_pairs": 213,
+  "total_images": 4752,
+  "total_groups": 4586,
+  "groups_with_multiple_images": 50,
+  "largest_group_size": 84,
+  "split_counts": {
+    "train": 3394,
+    "validation": 679,
+    "test": 679
+  },
+  "checks": {
+    "group_overlap": false,
+    "exact_duplicate_overlap": false,
+    "candidate_pair_overlap": false,
+    "all_classes_present_in_each_split": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "small_cnn_20261102T061000002156Z",
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "manifest_sha256": "f0ca0e3cc384d56bf35b9286414f983087847cec071b046bffe2e4d06974752a",
+  "classes": [
+    "Cardboard",
+    "Food Organics",
+    "Glass",
+    "Metal",
+    "Miscellaneous Trash",
+    "Paper",
+    "Plastic",
+    "Textile Trash",
+    "Vegetation"
+  ],
+  "train_images": 3394,
+  "validation_images": 679,
+  "trainable_parameters": 98089,
+  "epochs_completed": 12,
+  "best_epoch": 12,
+  "best_validation_metrics": {
+    "loss": 1.027735909170009,
+    "accuracy": 0.6362297496318114,
+    "macro_f1": 0.6311011625263141
+  },
+  "total_training_seconds": 1358.4889245999511,
+  "checkpoint": "artifacts/small_cnn_20261102T061000002156Z/best.pt"
+}

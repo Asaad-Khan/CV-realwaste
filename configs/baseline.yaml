@@ -1,0 +1,15 @@
+model_name: small_cnn
+data_root: data/raw/realwaste-main/RealWaste
+manifest: reports/splits/manifest.csv
+
+image_size: 160
+batch_size: 32
+epochs: 12
+patience: 4
+
+learning_rate: 0.001
+weight_decay: 0.0001
+dropout: 0.25
+
+seed: 42
+num_threads: 4

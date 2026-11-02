@@ -1,0 +1,11 @@
+**
+!Dockerfile
+!requirements-inference.txt
+!src/
+!src/**
+!app/
+!app/**
+!models/
+!models/baseline.pt
+**/__pycache__/
+**/*.pyc

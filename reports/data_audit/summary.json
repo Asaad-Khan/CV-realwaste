@@ -1,0 +1,31 @@
+{
+  "data_root": "data/raw/realwaste-main/RealWaste",
+  "image_files_found": 4752,
+  "readable_images": 4752,
+  "image_errors": 0,
+  "number_of_classes": 9,
+  "class_counts": {
+    "Cardboard": 461,
+    "Food Organics": 411,
+    "Glass": 420,
+    "Metal": 790,
+    "Miscellaneous Trash": 495,
+    "Paper": 500,
+    "Plastic": 921,
+    "Textile Trash": 318,
+    "Vegetation": 436
+  },
+  "largest_to_smallest_class_ratio": 2.8962264150943398,
+  "image_modes": {
+    "RGB": 4752
+  },
+  "dimensions": [
+    {
+      "width": 524,
+      "height": 524,
+      "count": 4752
+    }
+  ],
+  "file_duplicate_groups": [],
+  "pixel_duplicate_groups": []
+}
