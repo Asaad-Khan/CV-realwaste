@@ -10,7 +10,21 @@ Dockerized FastAPI inference service.
 - Small CNN baseline trained and evaluated on validation data.
 - Saved-checkpoint inference reproduces validation metrics.
 - All nine HTTP checks passed locally and in a Linux Docker container.
-- Public deployment: pending.
+- ## Live demo
+
+**Try the app:** https://asaad-realwaste.streamlit.app/
+
+Upload a JPEG, PNG, or WebP image and click **Classify image**.
+The app displays the predicted waste category and top-three model scores.
+
+The deployed app currently uses our trained SmallCNN baseline.
+Scores are uncalibrated softmax outputs, and predictions can be incorrect.
+
+Hosted on Streamlit Community Cloud. If the app is asleep, click the
+wake-up button and allow it to start.
+
+A separate FastAPI inference service and Dockerfile are also included
+for running the REST API locally.
 - Transfer-learning model and final test evaluation: pending.
 
 ## Dataset
