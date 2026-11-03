@@ -10,8 +10,9 @@ service.
 [Open the RealWaste classifier](https://asaad-realwaste.streamlit.app/)
 
 Upload a JPEG, PNG, or WebP image and click **Classify image** to see the
-predicted category and top three model scores. The live demo currently serves
-SmallCNN. The fine-tuned MobileNetV3-Small reported below was evaluated offline.
+predicted category and top three model scores. The live demo serves the fine-tuned MobileNetV3-Small checkpoint
+(`mobilenet_v3_small_20261103T054814856530Z`, epoch 5), which achieved
+84.24% accuracy and 0.8505 macro F1 on the 679-image held-out test set.
 
 The demo runs on Streamlit Community Cloud. If the app is asleep, use the
 wake-up button and allow it to start.
@@ -102,8 +103,8 @@ confusions on a fresh held-out set.
 
 ## Run inference locally
 
-Run the following commands from the repository root. The bundled
-`models/baseline.pt` checkpoint powers both local examples.
+Run the following commands from the repository root. Streamlit uses `models/mobilenet_v3_small.pt`. The FastAPI and Docker
+examples below use `models/baseline.pt`.
 
 ### Streamlit on Windows PowerShell
 
