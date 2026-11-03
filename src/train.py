@@ -83,8 +83,9 @@ def main():
     with args.config.open(encoding="utf-8") as file:
         config = yaml.safe_load(file)
 
-    if config["model_name"] != "small_cnn":
-        raise ValueError("This training version supports small_cnn only.")
+    supported_models = {"small_cnn", "mobilenet_v3_small"}
+    if config["model_name"] not in supported_models:
+        raise ValueError(f"Unsupported model: {config['model_name']}")
     if config["epochs"] < 1 or config["patience"] < 1:
         raise ValueError("epochs and patience must be positive.")
 
@@ -146,13 +147,24 @@ def main():
     )
 
     classes = train_dataset.classes
-    model = SmallCNN(
-        num_classes=len(classes),
-        dropout=config["dropout"],
-    )
+
+    if config["model_name"] == "small_cnn":
+        model = SmallCNN(
+            num_classes=len(classes),
+            dropout=config["dropout"],
+        )
+    else:
+        from src.models.transfer import MobileNetTransfer
+
+        model = MobileNetTransfer(
+            num_classes=len(classes),
+            pretrained=True,
+            freeze_backbone=True,
+            dropout=config["dropout"],
+        )
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.AdamW(
-        model.parameters(),
+        [p for p in model.parameters() if p.requires_grad],
         lr=config["learning_rate"],
         weight_decay=config["weight_decay"],
     )

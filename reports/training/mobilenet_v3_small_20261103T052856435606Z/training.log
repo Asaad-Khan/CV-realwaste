@@ -1,0 +1,26 @@
+2026-11-03 10:28:56,513 INFO: Run: mobilenet_v3_small_20261103T052856435606Z
+2026-11-03 10:28:56,514 INFO: Training images: 3394 | Validation images: 679
+2026-11-03 10:29:29,149 INFO: Epoch 01 | train loss 0.9931 | val loss 0.7372 | val accuracy 0.7231 | val macro F1 0.7253 | 32.6s
+2026-11-03 10:29:29,165 INFO: Saved improved checkpoint.
+2026-11-03 10:30:15,849 INFO: Epoch 02 | train loss 0.6051 | val loss 0.6367 | val accuracy 0.7658 | val macro F1 0.7631 | 46.7s
+2026-11-03 10:30:15,892 INFO: Saved improved checkpoint.
+2026-11-03 10:31:12,652 INFO: Epoch 03 | train loss 0.4699 | val loss 0.6641 | val accuracy 0.7452 | val macro F1 0.7532 | 56.8s
+2026-11-03 10:31:46,315 INFO: Epoch 04 | train loss 0.3945 | val loss 0.5671 | val accuracy 0.7835 | val macro F1 0.7842 | 33.7s
+2026-11-03 10:31:46,356 INFO: Saved improved checkpoint.
+2026-11-03 10:32:20,511 INFO: Epoch 05 | train loss 0.2971 | val loss 0.5046 | val accuracy 0.8115 | val macro F1 0.8094 | 34.2s
+2026-11-03 10:32:20,527 INFO: Saved improved checkpoint.
+2026-11-03 10:32:55,753 INFO: Epoch 06 | train loss 0.2825 | val loss 0.4819 | val accuracy 0.8189 | val macro F1 0.8226 | 35.2s
+2026-11-03 10:32:55,770 INFO: Saved improved checkpoint.
+2026-11-03 10:33:31,038 INFO: Epoch 07 | train loss 0.2100 | val loss 0.4686 | val accuracy 0.8306 | val macro F1 0.8354 | 35.3s
+2026-11-03 10:33:31,053 INFO: Saved improved checkpoint.
+2026-11-03 10:34:06,690 INFO: Epoch 08 | train loss 0.1762 | val loss 0.4874 | val accuracy 0.8365 | val macro F1 0.8337 | 35.6s
+2026-11-03 10:34:42,315 INFO: Epoch 09 | train loss 0.1581 | val loss 0.4398 | val accuracy 0.8439 | val macro F1 0.8428 | 35.6s
+2026-11-03 10:34:42,332 INFO: Saved improved checkpoint.
+2026-11-03 10:35:19,679 INFO: Epoch 10 | train loss 0.1292 | val loss 0.4715 | val accuracy 0.8483 | val macro F1 0.8419 | 37.3s
+2026-11-03 10:35:57,356 INFO: Epoch 11 | train loss 0.1421 | val loss 0.4619 | val accuracy 0.8527 | val macro F1 0.8530 | 37.7s
+2026-11-03 10:35:57,370 INFO: Saved improved checkpoint.
+2026-11-03 10:36:43,680 INFO: Epoch 12 | train loss 0.0912 | val loss 0.4352 | val accuracy 0.8483 | val macro F1 0.8488 | 46.3s
+2026-11-03 10:36:43,681 INFO: Best epoch: 11
+2026-11-03 10:36:43,681 INFO: Best validation macro F1: 0.8530
+2026-11-03 10:36:43,681 INFO: Checkpoint: artifacts\mobilenet_v3_small_20261103T052856435606Z\best.pt
+2026-11-03 10:36:43,681 INFO: Reports: reports\training\mobilenet_v3_small_20261103T052856435606Z
