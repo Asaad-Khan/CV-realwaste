@@ -14,6 +14,7 @@ from src.data.dataset import (
     build_transform,
 )
 from src.models.baseline import SmallCNN
+from src.models.transfer import MobileNetTransfer
 
 
 class WastePredictor:
@@ -27,9 +28,6 @@ class WastePredictor:
             map_location="cpu",
             weights_only=True,
         )
-
-        if checkpoint["model_name"] != "small_cnn":
-            raise ValueError("This inference version supports small_cnn only.")
 
         self.classes = checkpoint["classes"]
         self.image_size = checkpoint["image_size"]
@@ -55,10 +53,22 @@ class WastePredictor:
             training=False,
         )
 
-        self.model = SmallCNN(
-            num_classes=len(self.classes),
-            dropout=checkpoint["config"]["dropout"],
-        )
+        self.model_name = checkpoint["model_name"]
+        model_kwargs = {
+            "num_classes": checkpoint["num_classes"],
+            "dropout": checkpoint["config"]["dropout"],
+        }
+
+        if self.model_name == "small_cnn":
+            self.model = SmallCNN(**model_kwargs)
+        elif self.model_name == "mobilenet_v3_small":
+            self.model = MobileNetTransfer(
+                pretrained=False,
+                **model_kwargs,
+            )
+        else:
+            raise ValueError(f"Unsupported model: {self.model_name}")
+        
         self.model.load_state_dict(
             checkpoint["model_state_dict"],
             strict=True,
@@ -88,7 +98,7 @@ class WastePredictor:
         return {
             "predicted_class": predictions[0]["label"],
             "top_predictions": predictions,
-            "model_name": "small_cnn",
+            "model_name": self.model_name,
             "model_version": self.metadata["run_id"],
         }
 

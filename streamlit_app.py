@@ -12,7 +12,7 @@ from src.inference import WastePredictor
 
 
 ROOT = Path(__file__).resolve().parent
-MODEL_PATH = ROOT / "models" / "baseline.pt"
+MODEL_PATH = ROOT / "models" / "mobilenet_v3_small.pt"
 MAX_BYTES = 5 * 1024 * 1024
 MAX_PIXELS = 12_000_000
 ALLOWED_FORMATS = {"JPEG", "PNG", "WEBP"}
