@@ -147,8 +147,12 @@ def main():
     )
 
     classes = train_dataset.classes
+    initial_checkpoint = config.get("initial_checkpoint")
 
     if config["model_name"] == "small_cnn":
+        if initial_checkpoint:
+            raise ValueError("Fine-tuning is configured for MobileNet only.")
+
         model = SmallCNN(
             num_classes=len(classes),
             dropout=config["dropout"],
@@ -158,13 +162,52 @@ def main():
 
         model = MobileNetTransfer(
             num_classes=len(classes),
-            pretrained=True,
+            pretrained=not bool(initial_checkpoint),
             freeze_backbone=True,
             dropout=config["dropout"],
         )
+
+    if initial_checkpoint:
+        checkpoint = torch.load(
+            initial_checkpoint,
+            map_location="cpu",
+            weights_only=True,
+        )
+        manifest_sha = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
+
+        if (
+            checkpoint["model_name"] != config["model_name"]
+            or checkpoint["classes"] != classes
+            or checkpoint["image_size"] != config["image_size"]
+            or checkpoint["metadata"]["manifest_sha256"] != manifest_sha
+        ):
+            raise ValueError("Checkpoint does not match this training run.")
+
+        model.load_state_dict(checkpoint["model_state_dict"])
+
+        # The existing train() override keeps features in eval mode.
+        # Eval mode fixes BatchNorm statistics while allowing gradients.
+        final_features = model.network.features[-3:]
+        final_features.requires_grad_(True)
+
+        optimizer_parameters = [
+            {
+                "params": model.network.classifier.parameters(),
+                "lr": config["learning_rate"],
+            },
+            {
+                "params": final_features.parameters(),
+                "lr": config["backbone_learning_rate"],
+            },
+        ]
+    else:
+        optimizer_parameters = [
+            p for p in model.parameters() if p.requires_grad
+        ]
+
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.AdamW(
-        [p for p in model.parameters() if p.requires_grad],
+        optimizer_parameters,
         lr=config["learning_rate"],
         weight_decay=config["weight_decay"],
     )

@@ -1,0 +1,8 @@
+{
+  "model": "small_cnn",
+  "run_id": "small_cnn_20261102T065834549245Z",
+  "checkpoint_epoch": 14,
+  "test_images": 679,
+  "test_accuracy": 0.6553755522827688,
+  "test_macro_f1": 0.6345135277179026
+}

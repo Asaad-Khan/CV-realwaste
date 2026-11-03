@@ -1,0 +1,10 @@
+actual_class,Cardboard,Food Organics,Glass,Metal,Miscellaneous Trash,Paper,Plastic,Textile Trash,Vegetation
+Cardboard,52,5,1,0,1,1,6,0,0
+Food Organics,2,46,0,0,2,0,4,0,5
+Glass,8,1,44,3,1,0,2,1,0
+Metal,0,1,10,69,3,2,26,2,0
+Miscellaneous Trash,1,4,3,11,8,5,19,17,3
+Paper,7,0,1,5,1,53,4,0,0
+Plastic,6,2,7,9,2,3,100,3,0
+Textile Trash,2,0,2,4,4,3,11,19,0
+Vegetation,0,3,0,1,4,0,0,0,54

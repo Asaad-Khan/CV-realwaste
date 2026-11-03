@@ -1,50 +1,34 @@
 # RealWaste Image Classification
 
-A computer vision prototype for classifying waste images into nine material
-categories, with reproducible data preparation, CPU training, and a
-Dockerized FastAPI inference service.
+A computer vision prototype that classifies waste images into nine categories.
+The project covers dataset auditing, similarity-aware splitting, CPU training,
+held-out evaluation, and deployment through Streamlit and a Dockerized FastAPI
+service.
 
-## Current status
+## Live demo
 
-- Dataset audit and similarity-aware splits completed.
-- Small CNN baseline trained and evaluated on validation data.
-- Saved-checkpoint inference reproduces validation metrics.
-- All nine HTTP checks passed locally and in a Linux Docker container.
-- ## Live demo
+[Open the RealWaste classifier](https://asaad-realwaste.streamlit.app/)
 
-**Try the app:** https://asaad-realwaste.streamlit.app/
+Upload a JPEG, PNG, or WebP image and click **Classify image** to see the
+predicted category and top three model scores. The live demo currently serves
+SmallCNN. The fine-tuned MobileNetV3-Small reported below was evaluated offline.
 
-Upload a JPEG, PNG, or WebP image and click **Classify image**.
-The app displays the predicted waste category and top-three model scores.
-
-The deployed app currently uses our trained SmallCNN baseline.
-Scores are uncalibrated softmax outputs, and predictions can be incorrect.
-
-Hosted on Streamlit Community Cloud. If the app is asleep, click the
+The demo runs on Streamlit Community Cloud. If the app is asleep, use the
 wake-up button and allow it to start.
 
-A separate FastAPI inference service and Dockerfile are also included
-for running the REST API locally.
-- Transfer-learning model and final test evaluation: pending.
+## Dataset and split strategy
 
-## Dataset
+RealWaste contains 4,752 RGB JPEG images across nine categories: Cardboard,
+Food Organics, Glass, Metal, Miscellaneous Trash, Paper, Plastic, Textile Trash,
+and Vegetation. Class sizes range from 318 Textile Trash images to 921 Plastic
+images. Labels come from the dataset's class folders.
 
-RealWaste contains 4,752 images across nine classes:
-
-Cardboard, Food Organics, Glass, Metal, Miscellaneous Trash, Paper,
-Plastic, Textile Trash, and Vegetation.
-
-All images were readable and RGB. No exact file duplicates or identical
-decoded images were found.
-
-A difference-hash similarity check identified 213 candidate pairs.
-Visual inspection found both repeated views and false matches. Connected
-candidate pairs were conservatively kept in the same split, without
-deleting images or changing labels.
-
-These groups are heuristic similarity groups, not verified object identities.
-The method may miss related images and may group unrelated images.
-The largest group contains 84 images.
+The audit found no unreadable images, exact file duplicates, or identical
+decoded images. A difference-hash similarity check flagged 213 candidate
+pairs. Visual inspection found both repeated views and false matches, so
+connected candidates were conservatively assigned to the same split. The
+largest group contained 84 images. These groups are based on image
+similarity and may miss related images or group unrelated ones.
 
 | Split | Images |
 |---|---:|
@@ -52,125 +36,166 @@ The largest group contains 84 images.
 | Validation | 679 |
 | Test | 679 |
 
-Split assignments are stored in `reports/splits/manifest.csv`.
-The test set is reserved for final evaluation.
+All experiments use the split assignments in `reports/splits/manifest.csv`.
+Validation macro F1 guided checkpoint and model selection. The test set was
+opened after the final checkpoints were selected.
 
-## Baseline approach
+## Models and training
 
-The baseline is a CNN with 98,089 trainable parameters, trained from
-random initialization.
+All runs used an Intel i5-13420H CPU. Training used AdamW, unweighted
+cross-entropy, and ImageNet normalization. Training augmentation included
+horizontal flips, small rotations, and color jitter. Validation, test, and
+inference used deterministic resizing and normalization.
 
-- Input size: 160 × 160 RGB.
-- ImageNet mean and standard deviation used for normalization.
-- Training augmentation: horizontal flips, modest rotations, and color jitter.
-- Validation and inference: deterministic resizing and normalization.
-- Optimizer: AdamW.
-- Loss: unweighted cross-entropy.
-- Checkpoint selection: highest validation macro F1.
-- Training hardware: Intel i5-13420H CPU; no GPU acceleration.
+- **SmallCNN.** A 98,089-parameter CNN trained from scratch at 160 × 160.
+  Extending the initial 12-epoch budget raised validation macro F1 from
+  0.6311 to 0.6863. The extended run stopped at epoch 20 and retained epoch 14.
+- **Frozen MobileNetV3-Small.** An ImageNet-pretrained feature extractor
+  with a trainable nine-class classifier head. Transfer learning gave us
+  pretrained visual features for a dataset with 3,394 training images and
+  a CPU training budget. Inputs were resized to 224 × 224 without center
+  cropping to preserve the full image. The best checkpoint was epoch 11.
+- **Fine-tuned MobileNetV3-Small.** Initialized from the frozen run's best
+  checkpoint. The last three feature modules were unfrozen while BatchNorm
+  running statistics stayed fixed. The feature layers used a learning rate
+  of 0.00006, and the classifier used 0.0003. This six-epoch run retained
+  epoch 5.
 
-Macro F1 is the primary selection metric because class sizes differ.
+Macro F1 gives each class equal weight in model selection despite differences
+in class size. Configurations and run histories are under `reports/training/`.
 
-## Validation results
+## Results
 
-| Experiment | Best epoch | Accuracy | Macro F1 |
-|---|---:|---:|---:|
-| Initial 12-epoch budget | 12 | 0.6362 | 0.6311 |
-| Extended 30-epoch budget | 14 | 0.6966 | 0.6863 |
+| Checkpoint | Validation accuracy | Validation macro F1 | Test accuracy | Test macro F1 |
+|---|---:|---:|---:|---:|
+| SmallCNN | 69.66% | 0.6863 | 65.54% | 0.6345 |
+| Frozen MobileNetV3-Small | 85.27% | 0.8530 | — | — |
+| Fine-tuned MobileNetV3-Small | 86.45% | 0.8656 | 84.24% | 0.8505 |
 
-The extended run stopped at epoch 20 after six epochs without improved
-validation macro F1.
+Fine-tuning improved validation macro F1 by 1.26 percentage points over
+frozen MobileNet. On the same 679 test images, the selected MobileNet
+classified 572 correctly versus 445 for SmallCNN, a gain of 21.60
+percentage points in macro F1.
 
-The selected checkpoint is bundled as `models/baseline.pt`.
-Full experiment configurations and histories are in `reports/training/`.
+Per-class scores, confusion matrices, and image-level predictions are under
+`reports/evaluation/`.
 
-## Run the API with Docker
+## Error analysis
 
-From the repository root:
+Fine-tuned MobileNet made 107 test errors. Its most frequent two-way
+confusion was Metal and Plastic: 11 Metal images were predicted as Plastic,
+and eight Plastic images were predicted as Metal. Miscellaneous Trash had
+the lowest per-class F1 (0.767) and recall (0.718).
+
+![Five test errors with the highest model scores](reports/evaluation/mobilenet_v3_small_20261103T054814856530Z/high_score_errors.png)
+
+Two plastic bottles were predicted as Glass with softmax scores above
+0.9998. Their translucency, reflections, and bottle shape are plausible
+sources of ambiguity. Other errors include a printed textile pouch
+predicted as Paper and torn printed cardboard packaging predicted as
+Paper. These examples show why a high softmax score alone is insufficient
+for automatic sorting.
+
+A follow-up experiment would collect more examples of visually similar
+containers made from different materials and test whether they reduce these
+confusions on a fresh held-out set.
+
+## Run inference locally
+
+Run the following commands from the repository root. The bundled
+`models/baseline.pt` checkpoint powers both local examples.
+
+### Streamlit on Windows PowerShell
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m streamlit run streamlit_app.py
+```
+
+### FastAPI with Docker
 
 ```bash
 docker build -t realwaste-api:baseline .
 docker run --rm -p 8000:8000 --memory=1g --memory-swap=1g realwaste-api:baseline
 ```
 
-Open http://localhost:8000/docs to upload an image.
+Open `http://localhost:8000/docs` to try the API interactively.
 
-Endpoints:
+| Endpoint | Purpose |
+|---|---|
+| `GET /health` | Check model readiness and version |
+| `POST /predict` | Upload an image and receive the predicted category and top three scores |
+| `GET /docs` | Open interactive API documentation |
 
-- `GET /health`: model readiness and version.
-- `POST /predict`: predicted class and top-three softmax scores.
-- `GET /docs`: interactive API documentation.
+The API loads the model once at startup. It accepts JPEG, PNG, and WebP
+images up to 5 MiB and 12 million pixels, and rejects animated images.
+It processes one prediction at a time and returns HTTP 503 when busy.
+The application checks file size after multipart parsing.
 
-The model loads once at startup. The service accepts JPEG, PNG, and
-non-animated WEBP images, with a 5 MiB file-size limit and a
-12-million-pixel image limit.
-
-The handler processes one prediction at a time and returns HTTP 503
-when busy. File-size validation occurs after multipart parsing; it is
-not a hosting-level request-body limit.
-
-## Local development on Windows PowerShell
+To run FastAPI directly in PowerShell after installing dependencies:
 
 ```powershell
-python -m venv .venv
-
-.\.venv\Scripts\python.exe -m pip install -r requirements-local.txt --extra-index-url https://download.pytorch.org/whl/cpu
-
-.\.venv\Scripts\python.exe -m pip install -r requirements-inference.txt
-
 $env:MODEL_PATH = "models\baseline.pt"
 .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --workers 1
 ```
 
-With the dataset downloaded and extracted, audit and training commands are:
-
-```powershell
-.\.venv\Scripts\python.exe -m src.data.audit
-.\.venv\Scripts\python.exe -m src.data.review
-.\.venv\Scripts\python.exe -m src.data.split
-.\.venv\Scripts\python.exe -m src.train --config configs/baseline_long.yaml
-```
-
-Expected dataset directory:
-`data/raw/realwaste-main/RealWaste/`.
-
-The committed split manifest defines the experiments. Regeneration should
-be checked against the original before using it for comparisons.
-
-## HTTP checks
-
-With the service running and dataset available:
+All nine baseline HTTP checks passed locally and in Docker. To rerun them
+with the service running and the dataset available:
 
 ```powershell
 .\.venv\Scripts\python.exe -m scripts.check_api --base-url http://127.0.0.1:8000
 ```
 
-Checks cover readiness, valid images, empty uploads, invalid content,
-unsupported formats, oversized files, excessive image dimensions,
-missing upload fields, and service availability after invalid requests.
+## Reproduce training and evaluation
 
-## Limitations
+Download and extract RealWaste from [UCI](https://archive.ics.uci.edu/dataset/908/realwaste)
+so the class folders are under `data/raw/realwaste-main/RealWaste/`.
 
-- The model predicts a single category per image.
-- Repeated backgrounds and collection conditions may affect generalization.
-- Some material categories have ambiguous visual boundaries.
-- Softmax scores are not calibrated probabilities of correctness.
-- The model may confidently misclassify images, including unrelated inputs.
-- Validation results do not establish performance at other collection sites.
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements-local.txt --extra-index-url https://download.pytorch.org/whl/cpu
+.\.venv\Scripts\python.exe -m pip install -r requirements-inference.txt
 
-The initial container reported 495.8 MiB usage after HTTP checks under
-a 512 MiB limit. Local development was moved to a 1 GiB limit to provide
-headroom. Public-host memory requirements remain to be verified.
+.\.venv\Scripts\python.exe -m src.train --config configs/baseline_long.yaml
+.\.venv\Scripts\python.exe -m src.train --config configs/mobilenet_frozen.yaml
+```
+
+Use the checkpoint path printed by the frozen run as `initial_checkpoint`
+in `configs/mobilenet_finetune.yaml`, then run:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.train --config configs/mobilenet_finetune.yaml
+.\.venv\Scripts\python.exe -m scripts.evaluate models/baseline.pt
+```
+
+To reproduce the MobileNet evaluation, pass the fine-tuned run's selected
+`best.pt` path to `scripts.evaluate` in place of `models/baseline.pt`.
+
+To rerun data preparation, use `src.data.audit`, `src.data.review`, and
+`src.data.split` in that order. Use the committed manifest for direct
+comparison with the reported experiments.
+
+## Limitations and next steps
+
+The model assigns one of nine categories to each image. Mixed waste,
+unfamiliar backgrounds, and inputs outside those categories can yield
+incorrect predictions. Softmax scores are uncalibrated. Held-out results
+measure performance on this RealWaste split. Performance at other
+collection sites remains unmeasured.
+
+With more compute, the next training experiment would compare gradual
+unfreezing at several input resolutions and repeat runs across seeds.
+Additional images from other collection sites would help test whether
+improvements carry over to different backgrounds and lighting.
 
 ## Dataset attribution
 
 RealWaste was created by Sam Single, Saeid Iranmanesh, and Raad Raad.
 
-- UCI dataset: https://archive.ics.uci.edu/dataset/908/realwaste
-- Creator repository: https://github.com/sam-single/realwaste
-- Paper: https://doi.org/10.3390/info14120633
+- [UCI dataset](https://archive.ics.uci.edu/dataset/908/realwaste)
+- [Creator repository](https://github.com/sam-single/realwaste)
+- [Paper](https://doi.org/10.3390/info14120633)
 
 The creator repository lists CC BY-NC-SA 4.0, while the UCI entry lists
-CC BY 4.0. This source discrepancy is recorded here. Dataset sample
-figures in the reports derive from RealWaste; the original image
-archive is not included in this repository.
+CC BY 4.0. Dataset figures in the reports derive from RealWaste. The
+original image archive is kept outside the repository.

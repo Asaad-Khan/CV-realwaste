@@ -1,0 +1,14 @@
+model_name: mobilenet_v3_small
+data_root: data/raw/realwaste-main/RealWaste
+manifest: reports/splits/manifest.csv
+initial_checkpoint: artifacts/mobilenet_v3_small_20261103T052856435606Z/best.pt
+image_size: 224
+batch_size: 32
+epochs: 6
+patience: 3
+learning_rate: 0.0003
+backbone_learning_rate: 6.0e-05
+weight_decay: 0.0001
+dropout: 0.2
+seed: 42
+num_threads: 4

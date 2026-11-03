@@ -1,0 +1,21 @@
+{
+  "run_id": "mobilenet_v3_small_20261103T054814856530Z",
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "manifest_sha256": "f0ca0e3cc384d56bf35b9286414f983087847cec071b046bffe2e4d06974752a",
+  "classes": [
+    "Cardboard",
+    "Food Organics",
+    "Glass",
+    "Metal",
+    "Miscellaneous Trash",
+    "Paper",
+    "Plastic",
+    "Textile Trash",
+    "Vegetation"
+  ],
+  "train_images": 3394,
+  "validation_images": 679,
+  "trainable_parameters": 1244713
+}

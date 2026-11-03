@@ -1,0 +1,680 @@
+path,actual,predicted,top_score,correct
+Cardboard/Cardboard_102.jpg,Cardboard,Food Organics,0.8711215853691101,False
+Cardboard/Cardboard_110.jpg,Cardboard,Miscellaneous Trash,0.22448551654815674,False
+Cardboard/Cardboard_118.jpg,Cardboard,Cardboard,0.3590652644634247,True
+Cardboard/Cardboard_120.jpg,Cardboard,Food Organics,0.6208764314651489,False
+Cardboard/Cardboard_121.jpg,Cardboard,Food Organics,0.7907192707061768,False
+Cardboard/Cardboard_123.jpg,Cardboard,Cardboard,0.3372372090816498,True
+Cardboard/Cardboard_13.jpg,Cardboard,Cardboard,0.886608362197876,True
+Cardboard/Cardboard_134.jpg,Cardboard,Cardboard,0.3915254771709442,True
+Cardboard/Cardboard_139.jpg,Cardboard,Plastic,0.40361925959587097,False
+Cardboard/Cardboard_141.jpg,Cardboard,Plastic,0.5361724495887756,False
+Cardboard/Cardboard_169.jpg,Cardboard,Food Organics,0.45777076482772827,False
+Cardboard/Cardboard_17.jpg,Cardboard,Cardboard,0.6373705863952637,True
+Cardboard/Cardboard_174.jpg,Cardboard,Plastic,0.364475280046463,False
+Cardboard/Cardboard_175.jpg,Cardboard,Plastic,0.6032692193984985,False
+Cardboard/Cardboard_184.jpg,Cardboard,Cardboard,0.4633811414241791,True
+Cardboard/Cardboard_189.jpg,Cardboard,Plastic,0.5183360576629639,False
+Cardboard/Cardboard_19.jpg,Cardboard,Cardboard,0.9533791542053223,True
+Cardboard/Cardboard_195.jpg,Cardboard,Cardboard,0.8540390133857727,True
+Cardboard/Cardboard_207.jpg,Cardboard,Cardboard,0.9918428659439087,True
+Cardboard/Cardboard_209.jpg,Cardboard,Cardboard,0.9114865660667419,True
+Cardboard/Cardboard_210.jpg,Cardboard,Cardboard,0.8523761630058289,True
+Cardboard/Cardboard_220.jpg,Cardboard,Cardboard,0.9159646034240723,True
+Cardboard/Cardboard_229.jpg,Cardboard,Cardboard,0.9131063222885132,True
+Cardboard/Cardboard_23.jpg,Cardboard,Cardboard,0.9466071128845215,True
+Cardboard/Cardboard_24.jpg,Cardboard,Cardboard,0.6245932579040527,True
+Cardboard/Cardboard_262.jpg,Cardboard,Cardboard,0.9914052486419678,True
+Cardboard/Cardboard_266.jpg,Cardboard,Cardboard,0.9702242016792297,True
+Cardboard/Cardboard_274.jpg,Cardboard,Cardboard,0.7801746129989624,True
+Cardboard/Cardboard_279.jpg,Cardboard,Cardboard,0.6749742031097412,True
+Cardboard/Cardboard_281.jpg,Cardboard,Cardboard,0.970406174659729,True
+Cardboard/Cardboard_283.jpg,Cardboard,Cardboard,0.866192638874054,True
+Cardboard/Cardboard_290.jpg,Cardboard,Glass,0.8605205416679382,False
+Cardboard/Cardboard_291.jpg,Cardboard,Cardboard,0.8838930130004883,True
+Cardboard/Cardboard_298.jpg,Cardboard,Cardboard,0.7073225975036621,True
+Cardboard/Cardboard_299.jpg,Cardboard,Cardboard,0.8793109655380249,True
+Cardboard/Cardboard_306.jpg,Cardboard,Cardboard,0.9618646502494812,True
+Cardboard/Cardboard_310.jpg,Cardboard,Cardboard,0.9930858612060547,True
+Cardboard/Cardboard_314.jpg,Cardboard,Cardboard,0.9674068093299866,True
+Cardboard/Cardboard_320.jpg,Cardboard,Cardboard,0.7234602570533752,True
+Cardboard/Cardboard_33.jpg,Cardboard,Plastic,0.48357948660850525,False
+Cardboard/Cardboard_334.jpg,Cardboard,Cardboard,0.9659813642501831,True
+Cardboard/Cardboard_336.jpg,Cardboard,Cardboard,0.9461840987205505,True
+Cardboard/Cardboard_337.jpg,Cardboard,Cardboard,0.9561097621917725,True
+Cardboard/Cardboard_346.jpg,Cardboard,Cardboard,0.9869391918182373,True
+Cardboard/Cardboard_350.jpg,Cardboard,Cardboard,0.9828603863716125,True
+Cardboard/Cardboard_357.jpg,Cardboard,Cardboard,0.9997003078460693,True
+Cardboard/Cardboard_360.jpg,Cardboard,Cardboard,0.9538046717643738,True
+Cardboard/Cardboard_365.jpg,Cardboard,Cardboard,0.9475541710853577,True
+Cardboard/Cardboard_377.jpg,Cardboard,Cardboard,0.9055324196815491,True
+Cardboard/Cardboard_387.jpg,Cardboard,Cardboard,0.6213099360466003,True
+Cardboard/Cardboard_394.jpg,Cardboard,Cardboard,0.5431552529335022,True
+Cardboard/Cardboard_395.jpg,Cardboard,Cardboard,0.9736441969871521,True
+Cardboard/Cardboard_398.jpg,Cardboard,Cardboard,0.9679449796676636,True
+Cardboard/Cardboard_41.jpg,Cardboard,Cardboard,0.9947336912155151,True
+Cardboard/Cardboard_420.jpg,Cardboard,Cardboard,0.8648964166641235,True
+Cardboard/Cardboard_421.jpg,Cardboard,Cardboard,0.9233048558235168,True
+Cardboard/Cardboard_434.jpg,Cardboard,Cardboard,0.9998156428337097,True
+Cardboard/Cardboard_450.jpg,Cardboard,Cardboard,0.8342567086219788,True
+Cardboard/Cardboard_451.jpg,Cardboard,Cardboard,0.9591622948646545,True
+Cardboard/Cardboard_47.jpg,Cardboard,Cardboard,0.9444866180419922,True
+Cardboard/Cardboard_49.jpg,Cardboard,Cardboard,0.9204249978065491,True
+Cardboard/Cardboard_57.jpg,Cardboard,Cardboard,0.9104141592979431,True
+Cardboard/Cardboard_59.jpg,Cardboard,Cardboard,0.6068189144134521,True
+Cardboard/Cardboard_6.jpg,Cardboard,Cardboard,0.803369402885437,True
+Cardboard/Cardboard_70.jpg,Cardboard,Paper,0.7615265846252441,False
+Cardboard/Cardboard_99.jpg,Cardboard,Food Organics,0.7731105089187622,False
+Food Organics/Food Organics_10.jpg,Food Organics,Food Organics,0.8011041879653931,True
+Food Organics/Food Organics_109.jpg,Food Organics,Food Organics,0.781374990940094,True
+Food Organics/Food Organics_11.jpg,Food Organics,Food Organics,0.9173122048377991,True
+Food Organics/Food Organics_115.jpg,Food Organics,Plastic,0.49224188923835754,False
+Food Organics/Food Organics_124.jpg,Food Organics,Food Organics,0.9093285799026489,True
+Food Organics/Food Organics_127.jpg,Food Organics,Cardboard,0.3464905619621277,False
+Food Organics/Food Organics_138.jpg,Food Organics,Food Organics,0.258365660905838,True
+Food Organics/Food Organics_150.jpg,Food Organics,Food Organics,0.6004700660705566,True
+Food Organics/Food Organics_155.jpg,Food Organics,Food Organics,0.8322329521179199,True
+Food Organics/Food Organics_160.jpg,Food Organics,Food Organics,0.8122479319572449,True
+Food Organics/Food Organics_161.jpg,Food Organics,Food Organics,0.969548225402832,True
+Food Organics/Food Organics_165.jpg,Food Organics,Food Organics,0.8666465878486633,True
+Food Organics/Food Organics_17.jpg,Food Organics,Food Organics,0.8940572142601013,True
+Food Organics/Food Organics_174.jpg,Food Organics,Food Organics,0.8279220461845398,True
+Food Organics/Food Organics_204.jpg,Food Organics,Food Organics,0.9478744268417358,True
+Food Organics/Food Organics_206.jpg,Food Organics,Food Organics,0.976166844367981,True
+Food Organics/Food Organics_208.jpg,Food Organics,Food Organics,0.9901912212371826,True
+Food Organics/Food Organics_211.jpg,Food Organics,Food Organics,0.7546385526657104,True
+Food Organics/Food Organics_223.jpg,Food Organics,Plastic,0.4505818784236908,False
+Food Organics/Food Organics_224.jpg,Food Organics,Vegetation,0.9005987048149109,False
+Food Organics/Food Organics_246.jpg,Food Organics,Food Organics,0.8747535943984985,True
+Food Organics/Food Organics_270.jpg,Food Organics,Food Organics,0.40578967332839966,True
+Food Organics/Food Organics_275.jpg,Food Organics,Food Organics,0.62153559923172,True
+Food Organics/Food Organics_288.jpg,Food Organics,Food Organics,0.9184593558311462,True
+Food Organics/Food Organics_289.jpg,Food Organics,Food Organics,0.4109012484550476,True
+Food Organics/Food Organics_3.jpg,Food Organics,Miscellaneous Trash,0.3874189555644989,False
+Food Organics/Food Organics_305.jpg,Food Organics,Food Organics,0.5405551791191101,True
+Food Organics/Food Organics_31.jpg,Food Organics,Plastic,0.3888515532016754,False
+Food Organics/Food Organics_310.jpg,Food Organics,Cardboard,0.4467948079109192,False
+Food Organics/Food Organics_312.jpg,Food Organics,Miscellaneous Trash,0.401104599237442,False
+Food Organics/Food Organics_313.jpg,Food Organics,Vegetation,0.641650378704071,False
+Food Organics/Food Organics_32.jpg,Food Organics,Food Organics,0.8475477695465088,True
+Food Organics/Food Organics_330.jpg,Food Organics,Food Organics,0.6033526062965393,True
+Food Organics/Food Organics_339.jpg,Food Organics,Food Organics,0.8033033013343811,True
+Food Organics/Food Organics_341.jpg,Food Organics,Food Organics,0.8725771903991699,True
+Food Organics/Food Organics_344.jpg,Food Organics,Food Organics,0.8272913694381714,True
+Food Organics/Food Organics_355.jpg,Food Organics,Vegetation,0.6295568346977234,False
+Food Organics/Food Organics_361.jpg,Food Organics,Food Organics,0.5140130519866943,True
+Food Organics/Food Organics_369.jpg,Food Organics,Food Organics,0.8077861666679382,True
+Food Organics/Food Organics_37.jpg,Food Organics,Food Organics,0.508363664150238,True
+Food Organics/Food Organics_370.jpg,Food Organics,Food Organics,0.9113832116127014,True
+Food Organics/Food Organics_376.jpg,Food Organics,Food Organics,0.8904509544372559,True
+Food Organics/Food Organics_383.jpg,Food Organics,Food Organics,0.9436861276626587,True
+Food Organics/Food Organics_391.jpg,Food Organics,Food Organics,0.4957468509674072,True
+Food Organics/Food Organics_392.jpg,Food Organics,Vegetation,0.5004735589027405,False
+Food Organics/Food Organics_394.jpg,Food Organics,Food Organics,0.5131853222846985,True
+Food Organics/Food Organics_395.jpg,Food Organics,Food Organics,0.9147980213165283,True
+Food Organics/Food Organics_400.jpg,Food Organics,Food Organics,0.9017689228057861,True
+Food Organics/Food Organics_402.jpg,Food Organics,Food Organics,0.879038393497467,True
+Food Organics/Food Organics_51.jpg,Food Organics,Food Organics,0.7191459536552429,True
+Food Organics/Food Organics_62.jpg,Food Organics,Food Organics,0.7795951962471008,True
+Food Organics/Food Organics_70.jpg,Food Organics,Food Organics,0.8930526375770569,True
+Food Organics/Food Organics_73.jpg,Food Organics,Plastic,0.5797635912895203,False
+Food Organics/Food Organics_78.jpg,Food Organics,Food Organics,0.6206246614456177,True
+Food Organics/Food Organics_87.jpg,Food Organics,Food Organics,0.9402315616607666,True
+Food Organics/Food Organics_88.jpg,Food Organics,Food Organics,0.9385963082313538,True
+Food Organics/Food Organics_90.jpg,Food Organics,Vegetation,0.5312079191207886,False
+Food Organics/Food Organics_92.jpg,Food Organics,Food Organics,0.9732756018638611,True
+Food Organics/Food Organics_99.jpg,Food Organics,Food Organics,0.9633889198303223,True
+Glass/Glass_11.jpg,Glass,Textile Trash,0.28516119718551636,False
+Glass/Glass_12.jpg,Glass,Plastic,0.4872354567050934,False
+Glass/Glass_125.jpg,Glass,Glass,0.8483274579048157,True
+Glass/Glass_139.jpg,Glass,Glass,0.967509925365448,True
+Glass/Glass_149.jpg,Glass,Glass,0.9865337610244751,True
+Glass/Glass_153.jpg,Glass,Glass,0.976061224937439,True
+Glass/Glass_165.jpg,Glass,Glass,0.986403226852417,True
+Glass/Glass_168.jpg,Glass,Glass,0.7083625793457031,True
+Glass/Glass_17.jpg,Glass,Plastic,0.33067598938941956,False
+Glass/Glass_170.jpg,Glass,Glass,0.9909262657165527,True
+Glass/Glass_190.jpg,Glass,Glass,0.8926541805267334,True
+Glass/Glass_191.jpg,Glass,Glass,0.9091218113899231,True
+Glass/Glass_198.jpg,Glass,Glass,0.9804881811141968,True
+Glass/Glass_204.jpg,Glass,Glass,0.9735680818557739,True
+Glass/Glass_207.jpg,Glass,Glass,0.9812638759613037,True
+Glass/Glass_223.jpg,Glass,Metal,0.3402286767959595,False
+Glass/Glass_226.jpg,Glass,Glass,0.9616153240203857,True
+Glass/Glass_240.jpg,Glass,Glass,0.8715929388999939,True
+Glass/Glass_244.jpg,Glass,Glass,0.7345994710922241,True
+Glass/Glass_247.jpg,Glass,Glass,0.9257562756538391,True
+Glass/Glass_250.jpg,Glass,Glass,0.9788929224014282,True
+Glass/Glass_261.jpg,Glass,Glass,0.9413989186286926,True
+Glass/Glass_279.jpg,Glass,Glass,0.45884546637535095,True
+Glass/Glass_28.jpg,Glass,Miscellaneous Trash,0.5157473087310791,False
+Glass/Glass_288.jpg,Glass,Glass,0.7106857299804688,True
+Glass/Glass_293.jpg,Glass,Glass,0.9724606275558472,True
+Glass/Glass_294.jpg,Glass,Glass,0.9522587060928345,True
+Glass/Glass_307.jpg,Glass,Glass,0.7478522658348083,True
+Glass/Glass_308.jpg,Glass,Glass,0.7527850866317749,True
+Glass/Glass_327.jpg,Glass,Cardboard,0.7077944874763489,False
+Glass/Glass_328.jpg,Glass,Glass,0.8542622327804565,True
+Glass/Glass_329.jpg,Glass,Cardboard,0.47182124853134155,False
+Glass/Glass_333.jpg,Glass,Glass,0.9580966830253601,True
+Glass/Glass_339.jpg,Glass,Cardboard,0.6095238327980042,False
+Glass/Glass_342.jpg,Glass,Glass,0.864377498626709,True
+Glass/Glass_346.jpg,Glass,Glass,0.9450410008430481,True
+Glass/Glass_349.jpg,Glass,Cardboard,0.6951392292976379,False
+Glass/Glass_353.jpg,Glass,Cardboard,0.46225646138191223,False
+Glass/Glass_355.jpg,Glass,Glass,0.748068630695343,True
+Glass/Glass_357.jpg,Glass,Glass,0.8864135146141052,True
+Glass/Glass_359.jpg,Glass,Glass,0.8838536143302917,True
+Glass/Glass_360.jpg,Glass,Glass,0.6581687927246094,True
+Glass/Glass_361.jpg,Glass,Glass,0.5334745049476624,True
+Glass/Glass_373.jpg,Glass,Glass,0.5212464928627014,True
+Glass/Glass_376.jpg,Glass,Cardboard,0.6489936709403992,False
+Glass/Glass_382.jpg,Glass,Glass,0.4938470721244812,True
+Glass/Glass_39.jpg,Glass,Food Organics,0.4735466539859772,False
+Glass/Glass_390.jpg,Glass,Glass,0.4957236647605896,True
+Glass/Glass_393.jpg,Glass,Glass,0.7086862325668335,True
+Glass/Glass_400.jpg,Glass,Glass,0.48690488934516907,True
+Glass/Glass_411.jpg,Glass,Cardboard,0.841091513633728,False
+Glass/Glass_413.jpg,Glass,Cardboard,0.3704083263874054,False
+Glass/Glass_415.jpg,Glass,Glass,0.8811019659042358,True
+Glass/Glass_416.jpg,Glass,Metal,0.43094557523727417,False
+Glass/Glass_6.jpg,Glass,Metal,0.4828989803791046,False
+Glass/Glass_70.jpg,Glass,Glass,0.8749343156814575,True
+Glass/Glass_73.jpg,Glass,Glass,0.7129430174827576,True
+Glass/Glass_76.jpg,Glass,Glass,0.7984459400177002,True
+Glass/Glass_82.jpg,Glass,Glass,0.8995423316955566,True
+Glass/Glass_83.jpg,Glass,Glass,0.5333827137947083,True
+Metal/Metal_107.jpg,Metal,Metal,0.48639655113220215,True
+Metal/Metal_115.jpg,Metal,Metal,0.5842593908309937,True
+Metal/Metal_120.jpg,Metal,Metal,0.6949124336242676,True
+Metal/Metal_127.jpg,Metal,Metal,0.4427729845046997,True
+Metal/Metal_132.jpg,Metal,Paper,0.8425818085670471,False
+Metal/Metal_139.jpg,Metal,Metal,0.7056463360786438,True
+Metal/Metal_145.jpg,Metal,Metal,0.8220049142837524,True
+Metal/Metal_162.jpg,Metal,Metal,0.7805718183517456,True
+Metal/Metal_168.jpg,Metal,Metal,0.9395104646682739,True
+Metal/Metal_182.jpg,Metal,Plastic,0.5967732071876526,False
+Metal/Metal_19.jpg,Metal,Metal,0.45187628269195557,True
+Metal/Metal_197.jpg,Metal,Metal,0.7961488366127014,True
+Metal/Metal_206.jpg,Metal,Glass,0.5015490055084229,False
+Metal/Metal_207.jpg,Metal,Miscellaneous Trash,0.3292425572872162,False
+Metal/Metal_215.jpg,Metal,Plastic,0.26682019233703613,False
+Metal/Metal_218.jpg,Metal,Glass,0.4822506904602051,False
+Metal/Metal_221.jpg,Metal,Glass,0.4043869376182556,False
+Metal/Metal_222.jpg,Metal,Metal,0.6682553887367249,True
+Metal/Metal_227.jpg,Metal,Plastic,0.3978278636932373,False
+Metal/Metal_231.jpg,Metal,Plastic,0.4287363290786743,False
+Metal/Metal_239.jpg,Metal,Plastic,0.5223310589790344,False
+Metal/Metal_24.jpg,Metal,Metal,0.9170852303504944,True
+Metal/Metal_250.jpg,Metal,Glass,0.2878096103668213,False
+Metal/Metal_254.jpg,Metal,Plastic,0.3108481466770172,False
+Metal/Metal_255.jpg,Metal,Glass,0.47152143716812134,False
+Metal/Metal_257.jpg,Metal,Metal,0.8920369744300842,True
+Metal/Metal_258.jpg,Metal,Glass,0.5783706307411194,False
+Metal/Metal_259.jpg,Metal,Glass,0.3068581819534302,False
+Metal/Metal_274.jpg,Metal,Metal,0.9303010106086731,True
+Metal/Metal_275.jpg,Metal,Metal,0.9729787111282349,True
+Metal/Metal_284.jpg,Metal,Plastic,0.3488425612449646,False
+Metal/Metal_297.jpg,Metal,Plastic,0.4840698540210724,False
+Metal/Metal_299.jpg,Metal,Plastic,0.6005942821502686,False
+Metal/Metal_3.jpg,Metal,Metal,0.9864546060562134,True
+Metal/Metal_308.jpg,Metal,Plastic,0.5364369750022888,False
+Metal/Metal_310.jpg,Metal,Plastic,0.6217865347862244,False
+Metal/Metal_313.jpg,Metal,Plastic,0.41050416231155396,False
+Metal/Metal_320.jpg,Metal,Plastic,0.5342524647712708,False
+Metal/Metal_321.jpg,Metal,Plastic,0.7173786759376526,False
+Metal/Metal_327.jpg,Metal,Plastic,0.32186567783355713,False
+Metal/Metal_33.jpg,Metal,Metal,0.37751179933547974,True
+Metal/Metal_330.jpg,Metal,Metal,0.8462229371070862,True
+Metal/Metal_338.jpg,Metal,Metal,0.7708256244659424,True
+Metal/Metal_347.jpg,Metal,Metal,0.8812450766563416,True
+Metal/Metal_36.jpg,Metal,Glass,0.5355684757232666,False
+Metal/Metal_363.jpg,Metal,Metal,0.9537397027015686,True
+Metal/Metal_365.jpg,Metal,Metal,0.8403454422950745,True
+Metal/Metal_369.jpg,Metal,Metal,0.9683380722999573,True
+Metal/Metal_370.jpg,Metal,Metal,0.9288975596427917,True
+Metal/Metal_38.jpg,Metal,Plastic,0.25725847482681274,False
+Metal/Metal_380.jpg,Metal,Metal,0.9432955980300903,True
+Metal/Metal_387.jpg,Metal,Metal,0.9635956287384033,True
+Metal/Metal_389.jpg,Metal,Metal,0.9110062122344971,True
+Metal/Metal_39.jpg,Metal,Metal,0.5343903303146362,True
+Metal/Metal_396.jpg,Metal,Miscellaneous Trash,0.35689929127693176,False
+Metal/Metal_399.jpg,Metal,Metal,0.9173417687416077,True
+Metal/Metal_402.jpg,Metal,Metal,0.9300491213798523,True
+Metal/Metal_408.jpg,Metal,Metal,0.8471503257751465,True
+Metal/Metal_426.jpg,Metal,Metal,0.9275648593902588,True
+Metal/Metal_44.jpg,Metal,Glass,0.6081007122993469,False
+Metal/Metal_446.jpg,Metal,Paper,0.8398450016975403,False
+Metal/Metal_448.jpg,Metal,Metal,0.984779953956604,True
+Metal/Metal_452.jpg,Metal,Metal,0.8046603798866272,True
+Metal/Metal_454.jpg,Metal,Metal,0.63553786277771,True
+Metal/Metal_462.jpg,Metal,Metal,0.8972401022911072,True
+Metal/Metal_466.jpg,Metal,Metal,0.710075855255127,True
+Metal/Metal_47.jpg,Metal,Food Organics,0.29806283116340637,False
+Metal/Metal_482.jpg,Metal,Metal,0.8896040916442871,True
+Metal/Metal_490.jpg,Metal,Metal,0.9554451704025269,True
+Metal/Metal_494.jpg,Metal,Metal,0.9878591895103455,True
+Metal/Metal_504.jpg,Metal,Metal,0.7511855363845825,True
+Metal/Metal_509.jpg,Metal,Metal,0.6192848086357117,True
+Metal/Metal_52.jpg,Metal,Metal,0.5715109705924988,True
+Metal/Metal_544.jpg,Metal,Metal,0.5347084403038025,True
+Metal/Metal_547.jpg,Metal,Metal,0.5685560703277588,True
+Metal/Metal_557.jpg,Metal,Metal,0.9764959216117859,True
+Metal/Metal_561.jpg,Metal,Textile Trash,0.5847967863082886,False
+Metal/Metal_565.jpg,Metal,Miscellaneous Trash,0.290109246969223,False
+Metal/Metal_567.jpg,Metal,Plastic,0.4586948752403259,False
+Metal/Metal_568.jpg,Metal,Metal,0.9818920493125916,True
+Metal/Metal_569.jpg,Metal,Plastic,0.34817278385162354,False
+Metal/Metal_573.jpg,Metal,Plastic,0.34791532158851624,False
+Metal/Metal_578.jpg,Metal,Glass,0.6450678706169128,False
+Metal/Metal_583.jpg,Metal,Plastic,0.6727336049079895,False
+Metal/Metal_586.jpg,Metal,Metal,0.7200032472610474,True
+Metal/Metal_59.jpg,Metal,Metal,0.6185365319252014,True
+Metal/Metal_599.jpg,Metal,Metal,0.8520545363426208,True
+Metal/Metal_61.jpg,Metal,Plastic,0.4864261746406555,False
+Metal/Metal_616.jpg,Metal,Plastic,0.2647531032562256,False
+Metal/Metal_627.jpg,Metal,Metal,0.9648445844650269,True
+Metal/Metal_628.jpg,Metal,Metal,0.43592584133148193,True
+Metal/Metal_634.jpg,Metal,Metal,0.8036644458770752,True
+Metal/Metal_640.jpg,Metal,Metal,0.9668184518814087,True
+Metal/Metal_642.jpg,Metal,Metal,0.9364585280418396,True
+Metal/Metal_644.jpg,Metal,Plastic,0.4463080167770386,False
+Metal/Metal_655.jpg,Metal,Metal,0.7235650420188904,True
+Metal/Metal_659.jpg,Metal,Metal,0.5484095811843872,True
+Metal/Metal_663.jpg,Metal,Plastic,0.6062096953392029,False
+Metal/Metal_673.jpg,Metal,Plastic,0.6203587055206299,False
+Metal/Metal_680.jpg,Metal,Plastic,0.4877036511898041,False
+Metal/Metal_687.jpg,Metal,Metal,0.9956156015396118,True
+Metal/Metal_688.jpg,Metal,Textile Trash,0.5419332385063171,False
+Metal/Metal_698.jpg,Metal,Metal,0.8372058868408203,True
+Metal/Metal_707.jpg,Metal,Metal,0.694427490234375,True
+Metal/Metal_711.jpg,Metal,Metal,0.6404050588607788,True
+Metal/Metal_722.jpg,Metal,Metal,0.4100012183189392,True
+Metal/Metal_726.jpg,Metal,Metal,0.690647304058075,True
+Metal/Metal_737.jpg,Metal,Metal,0.3970806300640106,True
+Metal/Metal_738.jpg,Metal,Metal,0.5919466018676758,True
+Metal/Metal_74.jpg,Metal,Metal,0.37477824091911316,True
+Metal/Metal_746.jpg,Metal,Metal,0.618385910987854,True
+Metal/Metal_757.jpg,Metal,Metal,0.47713252902030945,True
+Metal/Metal_777.jpg,Metal,Metal,0.9779794812202454,True
+Miscellaneous Trash/Miscellaneous Trash_101.jpg,Miscellaneous Trash,Textile Trash,0.3304239511489868,False
+Miscellaneous Trash/Miscellaneous Trash_110.jpg,Miscellaneous Trash,Plastic,0.46378642320632935,False
+Miscellaneous Trash/Miscellaneous Trash_115.jpg,Miscellaneous Trash,Paper,0.2765447497367859,False
+Miscellaneous Trash/Miscellaneous Trash_138.jpg,Miscellaneous Trash,Paper,0.39380958676338196,False
+Miscellaneous Trash/Miscellaneous Trash_14.jpg,Miscellaneous Trash,Textile Trash,0.32810041308403015,False
+Miscellaneous Trash/Miscellaneous Trash_152.jpg,Miscellaneous Trash,Plastic,0.32200145721435547,False
+Miscellaneous Trash/Miscellaneous Trash_155.jpg,Miscellaneous Trash,Plastic,0.42623066902160645,False
+Miscellaneous Trash/Miscellaneous Trash_158.jpg,Miscellaneous Trash,Plastic,0.32134145498275757,False
+Miscellaneous Trash/Miscellaneous Trash_160.jpg,Miscellaneous Trash,Metal,0.6267249584197998,False
+Miscellaneous Trash/Miscellaneous Trash_170.jpg,Miscellaneous Trash,Plastic,0.41146227717399597,False
+Miscellaneous Trash/Miscellaneous Trash_178.jpg,Miscellaneous Trash,Metal,0.5360690355300903,False
+Miscellaneous Trash/Miscellaneous Trash_181.jpg,Miscellaneous Trash,Textile Trash,0.7049627304077148,False
+Miscellaneous Trash/Miscellaneous Trash_183.jpg,Miscellaneous Trash,Textile Trash,0.7800900340080261,False
+Miscellaneous Trash/Miscellaneous Trash_184.jpg,Miscellaneous Trash,Textile Trash,0.6162369251251221,False
+Miscellaneous Trash/Miscellaneous Trash_190.jpg,Miscellaneous Trash,Plastic,0.6320464611053467,False
+Miscellaneous Trash/Miscellaneous Trash_191.jpg,Miscellaneous Trash,Textile Trash,0.6440973281860352,False
+Miscellaneous Trash/Miscellaneous Trash_196.jpg,Miscellaneous Trash,Plastic,0.5934413075447083,False
+Miscellaneous Trash/Miscellaneous Trash_198.jpg,Miscellaneous Trash,Plastic,0.7703250646591187,False
+Miscellaneous Trash/Miscellaneous Trash_200.jpg,Miscellaneous Trash,Textile Trash,0.38876160979270935,False
+Miscellaneous Trash/Miscellaneous Trash_202.jpg,Miscellaneous Trash,Plastic,0.4476025104522705,False
+Miscellaneous Trash/Miscellaneous Trash_204.jpg,Miscellaneous Trash,Plastic,0.5860599875450134,False
+Miscellaneous Trash/Miscellaneous Trash_205.jpg,Miscellaneous Trash,Plastic,0.6055687069892883,False
+Miscellaneous Trash/Miscellaneous Trash_210.jpg,Miscellaneous Trash,Plastic,0.37991267442703247,False
+Miscellaneous Trash/Miscellaneous Trash_215.jpg,Miscellaneous Trash,Plastic,0.4482554793357849,False
+Miscellaneous Trash/Miscellaneous Trash_218.jpg,Miscellaneous Trash,Miscellaneous Trash,0.39121440052986145,True
+Miscellaneous Trash/Miscellaneous Trash_232.jpg,Miscellaneous Trash,Plastic,0.5709378719329834,False
+Miscellaneous Trash/Miscellaneous Trash_241.jpg,Miscellaneous Trash,Plastic,0.640275776386261,False
+Miscellaneous Trash/Miscellaneous Trash_242.jpg,Miscellaneous Trash,Plastic,0.6667357683181763,False
+Miscellaneous Trash/Miscellaneous Trash_251.jpg,Miscellaneous Trash,Textile Trash,0.5429999232292175,False
+Miscellaneous Trash/Miscellaneous Trash_253.jpg,Miscellaneous Trash,Food Organics,0.5375174283981323,False
+Miscellaneous Trash/Miscellaneous Trash_257.jpg,Miscellaneous Trash,Metal,0.4869733154773712,False
+Miscellaneous Trash/Miscellaneous Trash_270.jpg,Miscellaneous Trash,Miscellaneous Trash,0.49610635638237,True
+Miscellaneous Trash/Miscellaneous Trash_275.jpg,Miscellaneous Trash,Miscellaneous Trash,0.2787491977214813,True
+Miscellaneous Trash/Miscellaneous Trash_302.jpg,Miscellaneous Trash,Glass,0.20072786509990692,False
+Miscellaneous Trash/Miscellaneous Trash_307.jpg,Miscellaneous Trash,Miscellaneous Trash,0.3002375662326813,True
+Miscellaneous Trash/Miscellaneous Trash_311.jpg,Miscellaneous Trash,Metal,0.4661097526550293,False
+Miscellaneous Trash/Miscellaneous Trash_314.jpg,Miscellaneous Trash,Glass,0.2922050952911377,False
+Miscellaneous Trash/Miscellaneous Trash_315.jpg,Miscellaneous Trash,Metal,0.4775213599205017,False
+Miscellaneous Trash/Miscellaneous Trash_317.jpg,Miscellaneous Trash,Plastic,0.4137996733188629,False
+Miscellaneous Trash/Miscellaneous Trash_320.jpg,Miscellaneous Trash,Miscellaneous Trash,0.44631361961364746,True
+Miscellaneous Trash/Miscellaneous Trash_325.jpg,Miscellaneous Trash,Food Organics,0.7729635238647461,False
+Miscellaneous Trash/Miscellaneous Trash_331.jpg,Miscellaneous Trash,Food Organics,0.6479747295379639,False
+Miscellaneous Trash/Miscellaneous Trash_333.jpg,Miscellaneous Trash,Miscellaneous Trash,0.47161662578582764,True
+Miscellaneous Trash/Miscellaneous Trash_347.jpg,Miscellaneous Trash,Paper,0.913715660572052,False
+Miscellaneous Trash/Miscellaneous Trash_349.jpg,Miscellaneous Trash,Metal,0.47348853945732117,False
+Miscellaneous Trash/Miscellaneous Trash_366.jpg,Miscellaneous Trash,Metal,0.27799832820892334,False
+Miscellaneous Trash/Miscellaneous Trash_370.jpg,Miscellaneous Trash,Textile Trash,0.2828206717967987,False
+Miscellaneous Trash/Miscellaneous Trash_374.jpg,Miscellaneous Trash,Miscellaneous Trash,0.3260321617126465,True
+Miscellaneous Trash/Miscellaneous Trash_379.jpg,Miscellaneous Trash,Textile Trash,0.4818030893802643,False
+Miscellaneous Trash/Miscellaneous Trash_388.jpg,Miscellaneous Trash,Food Organics,0.6841526031494141,False
+Miscellaneous Trash/Miscellaneous Trash_4.jpg,Miscellaneous Trash,Paper,0.4269649088382721,False
+Miscellaneous Trash/Miscellaneous Trash_406.jpg,Miscellaneous Trash,Textile Trash,0.5249143242835999,False
+Miscellaneous Trash/Miscellaneous Trash_415.jpg,Miscellaneous Trash,Plastic,0.35218191146850586,False
+Miscellaneous Trash/Miscellaneous Trash_429.jpg,Miscellaneous Trash,Metal,0.38579124212265015,False
+Miscellaneous Trash/Miscellaneous Trash_43.jpg,Miscellaneous Trash,Textile Trash,0.4413197636604309,False
+Miscellaneous Trash/Miscellaneous Trash_435.jpg,Miscellaneous Trash,Plastic,0.4515154957771301,False
+Miscellaneous Trash/Miscellaneous Trash_441.jpg,Miscellaneous Trash,Textile Trash,0.7976785898208618,False
+Miscellaneous Trash/Miscellaneous Trash_447.jpg,Miscellaneous Trash,Vegetation,0.822765052318573,False
+Miscellaneous Trash/Miscellaneous Trash_459.jpg,Miscellaneous Trash,Vegetation,0.3620692789554596,False
+Miscellaneous Trash/Miscellaneous Trash_462.jpg,Miscellaneous Trash,Cardboard,0.6303786039352417,False
+Miscellaneous Trash/Miscellaneous Trash_473.jpg,Miscellaneous Trash,Vegetation,0.8533630967140198,False
+Miscellaneous Trash/Miscellaneous Trash_487.jpg,Miscellaneous Trash,Textile Trash,0.3669123351573944,False
+Miscellaneous Trash/Miscellaneous Trash_50.jpg,Miscellaneous Trash,Metal,0.31971094012260437,False
+Miscellaneous Trash/Miscellaneous Trash_51.jpg,Miscellaneous Trash,Textile Trash,0.31030115485191345,False
+Miscellaneous Trash/Miscellaneous Trash_52.jpg,Miscellaneous Trash,Textile Trash,0.44119253754615784,False
+Miscellaneous Trash/Miscellaneous Trash_6.jpg,Miscellaneous Trash,Paper,0.7410662174224854,False
+Miscellaneous Trash/Miscellaneous Trash_70.jpg,Miscellaneous Trash,Metal,0.41813281178474426,False
+Miscellaneous Trash/Miscellaneous Trash_74.jpg,Miscellaneous Trash,Metal,0.4126565158367157,False
+Miscellaneous Trash/Miscellaneous Trash_79.jpg,Miscellaneous Trash,Miscellaneous Trash,0.42618897557258606,True
+Miscellaneous Trash/Miscellaneous Trash_8.jpg,Miscellaneous Trash,Glass,0.27997466921806335,False
+Miscellaneous Trash/Miscellaneous Trash_81.jpg,Miscellaneous Trash,Textile Trash,0.573442816734314,False
+Paper/Paper_10.jpg,Paper,Paper,0.9170712828636169,True
+Paper/Paper_101.jpg,Paper,Paper,0.7414808869361877,True
+Paper/Paper_106.jpg,Paper,Plastic,0.2826153039932251,False
+Paper/Paper_113.jpg,Paper,Paper,0.990896999835968,True
+Paper/Paper_128.jpg,Paper,Cardboard,0.9147790670394897,False
+Paper/Paper_13.jpg,Paper,Paper,0.9734858274459839,True
+Paper/Paper_140.jpg,Paper,Paper,0.757289469242096,True
+Paper/Paper_147.jpg,Paper,Cardboard,0.6043106317520142,False
+Paper/Paper_160.jpg,Paper,Paper,0.8844015598297119,True
+Paper/Paper_168.jpg,Paper,Paper,0.8240357637405396,True
+Paper/Paper_17.jpg,Paper,Paper,0.5949398875236511,True
+Paper/Paper_178.jpg,Paper,Glass,0.6865302920341492,False
+Paper/Paper_192.jpg,Paper,Cardboard,0.6832187175750732,False
+Paper/Paper_196.jpg,Paper,Cardboard,0.5469781756401062,False
+Paper/Paper_198.jpg,Paper,Paper,0.5355739593505859,True
+Paper/Paper_200.jpg,Paper,Paper,0.7918601036071777,True
+Paper/Paper_201.jpg,Paper,Paper,0.9988455772399902,True
+Paper/Paper_203.jpg,Paper,Paper,0.5826005339622498,True
+Paper/Paper_210.jpg,Paper,Paper,0.522714376449585,True
+Paper/Paper_211.jpg,Paper,Paper,0.9299249053001404,True
+Paper/Paper_216.jpg,Paper,Paper,0.9340360760688782,True
+Paper/Paper_220.jpg,Paper,Paper,0.8880116939544678,True
+Paper/Paper_224.jpg,Paper,Paper,0.6077691316604614,True
+Paper/Paper_235.jpg,Paper,Paper,0.9860938787460327,True
+Paper/Paper_244.jpg,Paper,Paper,0.7823394536972046,True
+Paper/Paper_247.jpg,Paper,Paper,0.8774411082267761,True
+Paper/Paper_25.jpg,Paper,Paper,0.9894366264343262,True
+Paper/Paper_261.jpg,Paper,Metal,0.7480241060256958,False
+Paper/Paper_265.jpg,Paper,Paper,0.8746647834777832,True
+Paper/Paper_267.jpg,Paper,Paper,0.5930984020233154,True
+Paper/Paper_276.jpg,Paper,Paper,0.8292451500892639,True
+Paper/Paper_300.jpg,Paper,Paper,0.7931573390960693,True
+Paper/Paper_303.jpg,Paper,Paper,0.699905276298523,True
+Paper/Paper_305.jpg,Paper,Paper,0.6877267360687256,True
+Paper/Paper_317.jpg,Paper,Paper,0.9754626154899597,True
+Paper/Paper_32.jpg,Paper,Paper,0.5854716300964355,True
+Paper/Paper_331.jpg,Paper,Metal,0.6046761870384216,False
+Paper/Paper_339.jpg,Paper,Paper,0.9841400384902954,True
+Paper/Paper_345.jpg,Paper,Metal,0.275623619556427,False
+Paper/Paper_354.jpg,Paper,Metal,0.5926528573036194,False
+Paper/Paper_357.jpg,Paper,Paper,0.9778280854225159,True
+Paper/Paper_36.jpg,Paper,Paper,0.8786899447441101,True
+Paper/Paper_360.jpg,Paper,Plastic,0.28897684812545776,False
+Paper/Paper_365.jpg,Paper,Paper,0.6419458985328674,True
+Paper/Paper_376.jpg,Paper,Plastic,0.42153215408325195,False
+Paper/Paper_379.jpg,Paper,Paper,0.9918196201324463,True
+Paper/Paper_386.jpg,Paper,Paper,0.6316870450973511,True
+Paper/Paper_387.jpg,Paper,Paper,0.7726917266845703,True
+Paper/Paper_394.jpg,Paper,Miscellaneous Trash,0.3773946464061737,False
+Paper/Paper_398.jpg,Paper,Paper,0.9591424465179443,True
+Paper/Paper_399.jpg,Paper,Paper,0.9290676712989807,True
+Paper/Paper_406.jpg,Paper,Cardboard,0.33505213260650635,False
+Paper/Paper_414.jpg,Paper,Paper,0.8487963080406189,True
+Paper/Paper_429.jpg,Paper,Plastic,0.5882884860038757,False
+Paper/Paper_431.jpg,Paper,Cardboard,0.5759444236755371,False
+Paper/Paper_436.jpg,Paper,Cardboard,0.39097294211387634,False
+Paper/Paper_437.jpg,Paper,Metal,0.3491394519805908,False
+Paper/Paper_442.jpg,Paper,Paper,0.7775207161903381,True
+Paper/Paper_445.jpg,Paper,Paper,0.9833554625511169,True
+Paper/Paper_461.jpg,Paper,Paper,0.9450526833534241,True
+Paper/Paper_463.jpg,Paper,Paper,0.9886261820793152,True
+Paper/Paper_466.jpg,Paper,Paper,0.9562328457832336,True
+Paper/Paper_475.jpg,Paper,Paper,0.9847220778465271,True
+Paper/Paper_483.jpg,Paper,Paper,0.9131497144699097,True
+Paper/Paper_494.jpg,Paper,Paper,0.8354313373565674,True
+Paper/Paper_496.jpg,Paper,Paper,0.6967797875404358,True
+Paper/Paper_51.jpg,Paper,Paper,0.9498052597045898,True
+Paper/Paper_60.jpg,Paper,Paper,0.9972744584083557,True
+Paper/Paper_79.jpg,Paper,Paper,0.9866746068000793,True
+Paper/Paper_81.jpg,Paper,Paper,0.9851727485656738,True
+Paper/Paper_94.jpg,Paper,Paper,0.8480926156044006,True
+Plastic/Plastic_11.jpg,Plastic,Plastic,0.6772450804710388,True
+Plastic/Plastic_113.jpg,Plastic,Plastic,0.6497686505317688,True
+Plastic/Plastic_114.jpg,Plastic,Textile Trash,0.4969598650932312,False
+Plastic/Plastic_117.jpg,Plastic,Plastic,0.6089076995849609,True
+Plastic/Plastic_119.jpg,Plastic,Plastic,0.6922205686569214,True
+Plastic/Plastic_120.jpg,Plastic,Plastic,0.8938889503479004,True
+Plastic/Plastic_121.jpg,Plastic,Plastic,0.30602818727493286,True
+Plastic/Plastic_131.jpg,Plastic,Plastic,0.7402273416519165,True
+Plastic/Plastic_135.jpg,Plastic,Plastic,0.5442254543304443,True
+Plastic/Plastic_14.jpg,Plastic,Cardboard,0.48071524500846863,False
+Plastic/Plastic_155.jpg,Plastic,Metal,0.42126166820526123,False
+Plastic/Plastic_157.jpg,Plastic,Plastic,0.7648646831512451,True
+Plastic/Plastic_158.jpg,Plastic,Textile Trash,0.6199632287025452,False
+Plastic/Plastic_162.jpg,Plastic,Metal,0.34730643033981323,False
+Plastic/Plastic_184.jpg,Plastic,Plastic,0.7720990180969238,True
+Plastic/Plastic_188.jpg,Plastic,Metal,0.43342357873916626,False
+Plastic/Plastic_192.jpg,Plastic,Plastic,0.513578474521637,True
+Plastic/Plastic_194.jpg,Plastic,Plastic,0.6219910383224487,True
+Plastic/Plastic_199.jpg,Plastic,Metal,0.48200884461402893,False
+Plastic/Plastic_2.jpg,Plastic,Plastic,0.4387405514717102,True
+Plastic/Plastic_20.jpg,Plastic,Plastic,0.8275477886199951,True
+Plastic/Plastic_21.jpg,Plastic,Plastic,0.5219071507453918,True
+Plastic/Plastic_212.jpg,Plastic,Plastic,0.5869399309158325,True
+Plastic/Plastic_232.jpg,Plastic,Textile Trash,0.3953230381011963,False
+Plastic/Plastic_242.jpg,Plastic,Plastic,0.3769538998603821,True
+Plastic/Plastic_257.jpg,Plastic,Plastic,0.6479822397232056,True
+Plastic/Plastic_266.jpg,Plastic,Paper,0.8555638194084167,False
+Plastic/Plastic_27.jpg,Plastic,Plastic,0.6506624817848206,True
+Plastic/Plastic_274.jpg,Plastic,Paper,0.9688372015953064,False
+Plastic/Plastic_3.jpg,Plastic,Plastic,0.80246502161026,True
+Plastic/Plastic_303.jpg,Plastic,Glass,0.7571240067481995,False
+Plastic/Plastic_307.jpg,Plastic,Miscellaneous Trash,0.34733086824417114,False
+Plastic/Plastic_308.jpg,Plastic,Plastic,0.562461256980896,True
+Plastic/Plastic_314.jpg,Plastic,Paper,0.47400447726249695,False
+Plastic/Plastic_330.jpg,Plastic,Plastic,0.3742934465408325,True
+Plastic/Plastic_336.jpg,Plastic,Cardboard,0.19153860211372375,False
+Plastic/Plastic_337.jpg,Plastic,Plastic,0.41198939085006714,True
+Plastic/Plastic_339.jpg,Plastic,Plastic,0.42208507657051086,True
+Plastic/Plastic_341.jpg,Plastic,Plastic,0.28416821360588074,True
+Plastic/Plastic_347.jpg,Plastic,Plastic,0.5778774619102478,True
+Plastic/Plastic_354.jpg,Plastic,Metal,0.8989908695220947,False
+Plastic/Plastic_355.jpg,Plastic,Plastic,0.3506525754928589,True
+Plastic/Plastic_356.jpg,Plastic,Plastic,0.28977763652801514,True
+Plastic/Plastic_359.jpg,Plastic,Plastic,0.39037221670150757,True
+Plastic/Plastic_360.jpg,Plastic,Glass,0.4706927537918091,False
+Plastic/Plastic_361.jpg,Plastic,Miscellaneous Trash,0.32047176361083984,False
+Plastic/Plastic_363.jpg,Plastic,Plastic,0.32259172201156616,True
+Plastic/Plastic_364.jpg,Plastic,Plastic,0.3489167094230652,True
+Plastic/Plastic_368.jpg,Plastic,Plastic,0.8090682625770569,True
+Plastic/Plastic_382.jpg,Plastic,Plastic,0.4378926157951355,True
+Plastic/Plastic_383.jpg,Plastic,Plastic,0.6794432997703552,True
+Plastic/Plastic_384.jpg,Plastic,Plastic,0.49088844656944275,True
+Plastic/Plastic_394.jpg,Plastic,Plastic,0.41163817048072815,True
+Plastic/Plastic_396.jpg,Plastic,Plastic,0.7076916694641113,True
+Plastic/Plastic_406.jpg,Plastic,Plastic,0.5533531308174133,True
+Plastic/Plastic_421.jpg,Plastic,Glass,0.45084211230278015,False
+Plastic/Plastic_426.jpg,Plastic,Plastic,0.7889373898506165,True
+Plastic/Plastic_428.jpg,Plastic,Plastic,0.6092305183410645,True
+Plastic/Plastic_441.jpg,Plastic,Plastic,0.8014514446258545,True
+Plastic/Plastic_442.jpg,Plastic,Plastic,0.5918499231338501,True
+Plastic/Plastic_443.jpg,Plastic,Plastic,0.5697135329246521,True
+Plastic/Plastic_444.jpg,Plastic,Plastic,0.8251104354858398,True
+Plastic/Plastic_448.jpg,Plastic,Plastic,0.8827020525932312,True
+Plastic/Plastic_452.jpg,Plastic,Plastic,0.4980331361293793,True
+Plastic/Plastic_467.jpg,Plastic,Plastic,0.7024480104446411,True
+Plastic/Plastic_469.jpg,Plastic,Plastic,0.8415573239326477,True
+Plastic/Plastic_479.jpg,Plastic,Food Organics,0.8469733595848083,False
+Plastic/Plastic_481.jpg,Plastic,Plastic,0.8101427555084229,True
+Plastic/Plastic_499.jpg,Plastic,Plastic,0.5011523962020874,True
+Plastic/Plastic_513.jpg,Plastic,Glass,0.4131454527378082,False
+Plastic/Plastic_514.jpg,Plastic,Glass,0.29235225915908813,False
+Plastic/Plastic_515.jpg,Plastic,Plastic,0.32516324520111084,True
+Plastic/Plastic_52.jpg,Plastic,Plastic,0.5739939212799072,True
+Plastic/Plastic_523.jpg,Plastic,Plastic,0.5446932911872864,True
+Plastic/Plastic_526.jpg,Plastic,Plastic,0.8763875365257263,True
+Plastic/Plastic_530.jpg,Plastic,Cardboard,0.47934114933013916,False
+Plastic/Plastic_534.jpg,Plastic,Cardboard,0.4265613555908203,False
+Plastic/Plastic_551.jpg,Plastic,Plastic,0.49751248955726624,True
+Plastic/Plastic_569.jpg,Plastic,Plastic,0.7343809604644775,True
+Plastic/Plastic_57.jpg,Plastic,Glass,0.5233118534088135,False
+Plastic/Plastic_582.jpg,Plastic,Plastic,0.7039660215377808,True
+Plastic/Plastic_589.jpg,Plastic,Plastic,0.6680476069450378,True
+Plastic/Plastic_597.jpg,Plastic,Plastic,0.8040501475334167,True
+Plastic/Plastic_60.jpg,Plastic,Plastic,0.46361494064331055,True
+Plastic/Plastic_602.jpg,Plastic,Plastic,0.8371654748916626,True
+Plastic/Plastic_605.jpg,Plastic,Plastic,0.8932507634162903,True
+Plastic/Plastic_606.jpg,Plastic,Plastic,0.9036089181900024,True
+Plastic/Plastic_609.jpg,Plastic,Plastic,0.5096433758735657,True
+Plastic/Plastic_61.jpg,Plastic,Plastic,0.6595396995544434,True
+Plastic/Plastic_610.jpg,Plastic,Plastic,0.6881605386734009,True
+Plastic/Plastic_62.jpg,Plastic,Plastic,0.8148401379585266,True
+Plastic/Plastic_622.jpg,Plastic,Plastic,0.5804166197776794,True
+Plastic/Plastic_628.jpg,Plastic,Plastic,0.39471644163131714,True
+Plastic/Plastic_645.jpg,Plastic,Plastic,0.7301746010780334,True
+Plastic/Plastic_65.jpg,Plastic,Plastic,0.4742433428764343,True
+Plastic/Plastic_657.jpg,Plastic,Plastic,0.42534106969833374,True
+Plastic/Plastic_665.jpg,Plastic,Plastic,0.8471731543540955,True
+Plastic/Plastic_666.jpg,Plastic,Plastic,0.7985413074493408,True
+Plastic/Plastic_668.jpg,Plastic,Plastic,0.7509214878082275,True
+Plastic/Plastic_669.jpg,Plastic,Glass,0.8911081552505493,False
+Plastic/Plastic_672.jpg,Plastic,Plastic,0.4969731867313385,True
+Plastic/Plastic_673.jpg,Plastic,Plastic,0.7701757550239563,True
+Plastic/Plastic_680.jpg,Plastic,Plastic,0.7266196012496948,True
+Plastic/Plastic_690.jpg,Plastic,Cardboard,0.447499543428421,False
+Plastic/Plastic_695.jpg,Plastic,Plastic,0.6431527733802795,True
+Plastic/Plastic_703.jpg,Plastic,Plastic,0.7523531913757324,True
+Plastic/Plastic_709.jpg,Plastic,Plastic,0.6244621276855469,True
+Plastic/Plastic_727.jpg,Plastic,Plastic,0.7790015935897827,True
+Plastic/Plastic_733.jpg,Plastic,Plastic,0.5628094673156738,True
+Plastic/Plastic_738.jpg,Plastic,Plastic,0.778480589389801,True
+Plastic/Plastic_740.jpg,Plastic,Plastic,0.6630045771598816,True
+Plastic/Plastic_757.jpg,Plastic,Food Organics,0.8550141453742981,False
+Plastic/Plastic_764.jpg,Plastic,Plastic,0.683915376663208,True
+Plastic/Plastic_765.jpg,Plastic,Plastic,0.4162639081478119,True
+Plastic/Plastic_789.jpg,Plastic,Metal,0.35139980912208557,False
+Plastic/Plastic_8.jpg,Plastic,Plastic,0.8943440318107605,True
+Plastic/Plastic_803.jpg,Plastic,Plastic,0.7594323754310608,True
+Plastic/Plastic_819.jpg,Plastic,Plastic,0.538123607635498,True
+Plastic/Plastic_820.jpg,Plastic,Plastic,0.5306165218353271,True
+Plastic/Plastic_824.jpg,Plastic,Plastic,0.5817562341690063,True
+Plastic/Plastic_826.jpg,Plastic,Metal,0.5894928574562073,False
+Plastic/Plastic_834.jpg,Plastic,Metal,0.3115404546260834,False
+Plastic/Plastic_839.jpg,Plastic,Plastic,0.7585021257400513,True
+Plastic/Plastic_847.jpg,Plastic,Plastic,0.639396607875824,True
+Plastic/Plastic_85.jpg,Plastic,Plastic,0.588885486125946,True
+Plastic/Plastic_851.jpg,Plastic,Plastic,0.9136221408843994,True
+Plastic/Plastic_852.jpg,Plastic,Plastic,0.9359113574028015,True
+Plastic/Plastic_877.jpg,Plastic,Plastic,0.8695375919342041,True
+Plastic/Plastic_889.jpg,Plastic,Plastic,0.5232351422309875,True
+Plastic/Plastic_898.jpg,Plastic,Metal,0.6117494702339172,False
+Plastic/Plastic_901.jpg,Plastic,Plastic,0.370479553937912,True
+Plastic/Plastic_918.jpg,Plastic,Cardboard,0.8097015023231506,False
+Textile Trash/Textile Trash_100.jpg,Textile Trash,Glass,0.5702023506164551,False
+Textile Trash/Textile Trash_107.jpg,Textile Trash,Textile Trash,0.49696239829063416,True
+Textile Trash/Textile Trash_108.jpg,Textile Trash,Textile Trash,0.6282471418380737,True
+Textile Trash/Textile Trash_133.jpg,Textile Trash,Textile Trash,0.8743454217910767,True
+Textile Trash/Textile Trash_151.jpg,Textile Trash,Cardboard,0.6583280563354492,False
+Textile Trash/Textile Trash_160.jpg,Textile Trash,Paper,0.4329933524131775,False
+Textile Trash/Textile Trash_165.jpg,Textile Trash,Metal,0.509641170501709,False
+Textile Trash/Textile Trash_17.jpg,Textile Trash,Plastic,0.30847787857055664,False
+Textile Trash/Textile Trash_179.jpg,Textile Trash,Textile Trash,0.5374124646186829,True
+Textile Trash/Textile Trash_18.jpg,Textile Trash,Cardboard,0.5138805508613586,False
+Textile Trash/Textile Trash_180.jpg,Textile Trash,Plastic,0.3885027766227722,False
+Textile Trash/Textile Trash_182.jpg,Textile Trash,Textile Trash,0.5718640685081482,True
+Textile Trash/Textile Trash_198.jpg,Textile Trash,Metal,0.7765560746192932,False
+Textile Trash/Textile Trash_20.jpg,Textile Trash,Plastic,0.6655036211013794,False
+Textile Trash/Textile Trash_202.jpg,Textile Trash,Metal,0.7085698246955872,False
+Textile Trash/Textile Trash_22.jpg,Textile Trash,Plastic,0.6534435153007507,False
+Textile Trash/Textile Trash_223.jpg,Textile Trash,Textile Trash,0.6591747403144836,True
+Textile Trash/Textile Trash_228.jpg,Textile Trash,Textile Trash,0.8534419536590576,True
+Textile Trash/Textile Trash_23.jpg,Textile Trash,Plastic,0.371396541595459,False
+Textile Trash/Textile Trash_234.jpg,Textile Trash,Textile Trash,0.5408275723457336,True
+Textile Trash/Textile Trash_236.jpg,Textile Trash,Textile Trash,0.28138136863708496,True
+Textile Trash/Textile Trash_237.jpg,Textile Trash,Paper,0.29056283831596375,False
+Textile Trash/Textile Trash_238.jpg,Textile Trash,Paper,0.40111273527145386,False
+Textile Trash/Textile Trash_244.jpg,Textile Trash,Glass,0.2579505443572998,False
+Textile Trash/Textile Trash_249.jpg,Textile Trash,Textile Trash,0.695924699306488,True
+Textile Trash/Textile Trash_25.jpg,Textile Trash,Textile Trash,0.2651275396347046,True
+Textile Trash/Textile Trash_250.jpg,Textile Trash,Textile Trash,0.9057748317718506,True
+Textile Trash/Textile Trash_259.jpg,Textile Trash,Plastic,0.4708881080150604,False
+Textile Trash/Textile Trash_26.jpg,Textile Trash,Plastic,0.2572161853313446,False
+Textile Trash/Textile Trash_267.jpg,Textile Trash,Metal,0.5527492761611938,False
+Textile Trash/Textile Trash_272.jpg,Textile Trash,Textile Trash,0.7389417886734009,True
+Textile Trash/Textile Trash_278.jpg,Textile Trash,Plastic,0.5050140619277954,False
+Textile Trash/Textile Trash_29.jpg,Textile Trash,Miscellaneous Trash,0.48908233642578125,False
+Textile Trash/Textile Trash_296.jpg,Textile Trash,Textile Trash,0.8629500269889832,True
+Textile Trash/Textile Trash_298.jpg,Textile Trash,Textile Trash,0.7335517406463623,True
+Textile Trash/Textile Trash_3.jpg,Textile Trash,Textile Trash,0.52308189868927,True
+Textile Trash/Textile Trash_303.jpg,Textile Trash,Textile Trash,0.8109056949615479,True
+Textile Trash/Textile Trash_31.jpg,Textile Trash,Miscellaneous Trash,0.3781226575374603,False
+Textile Trash/Textile Trash_310.jpg,Textile Trash,Textile Trash,0.8039235472679138,True
+Textile Trash/Textile Trash_313.jpg,Textile Trash,Plastic,0.25319862365722656,False
+Textile Trash/Textile Trash_46.jpg,Textile Trash,Plastic,0.34092098474502563,False
+Textile Trash/Textile Trash_50.jpg,Textile Trash,Textile Trash,0.5836949348449707,True
+Textile Trash/Textile Trash_55.jpg,Textile Trash,Plastic,0.3884468078613281,False
+Textile Trash/Textile Trash_64.jpg,Textile Trash,Miscellaneous Trash,0.4584749639034271,False
+Textile Trash/Textile Trash_67.jpg,Textile Trash,Miscellaneous Trash,0.24039214849472046,False
+Vegetation/Vegetation_100.jpg,Vegetation,Vegetation,0.9734008312225342,True
+Vegetation/Vegetation_101.jpg,Vegetation,Vegetation,0.9973354935646057,True
+Vegetation/Vegetation_102.jpg,Vegetation,Vegetation,0.9534454941749573,True
+Vegetation/Vegetation_121.jpg,Vegetation,Vegetation,0.6448912620544434,True
+Vegetation/Vegetation_128.jpg,Vegetation,Vegetation,0.9943262934684753,True
+Vegetation/Vegetation_138.jpg,Vegetation,Vegetation,0.962615430355072,True
+Vegetation/Vegetation_141.jpg,Vegetation,Vegetation,0.9439308643341064,True
+Vegetation/Vegetation_146.jpg,Vegetation,Vegetation,0.9393787384033203,True
+Vegetation/Vegetation_154.jpg,Vegetation,Food Organics,0.5191864371299744,False
+Vegetation/Vegetation_155.jpg,Vegetation,Vegetation,0.9341548681259155,True
+Vegetation/Vegetation_167.jpg,Vegetation,Food Organics,0.468752384185791,False
+Vegetation/Vegetation_17.jpg,Vegetation,Vegetation,0.7485454678535461,True
+Vegetation/Vegetation_175.jpg,Vegetation,Vegetation,0.5489324331283569,True
+Vegetation/Vegetation_179.jpg,Vegetation,Vegetation,0.8170021772384644,True
+Vegetation/Vegetation_203.jpg,Vegetation,Vegetation,0.8447380065917969,True
+Vegetation/Vegetation_218.jpg,Vegetation,Vegetation,0.4512920677661896,True
+Vegetation/Vegetation_222.jpg,Vegetation,Vegetation,0.9732624292373657,True
+Vegetation/Vegetation_242.jpg,Vegetation,Vegetation,0.994368851184845,True
+Vegetation/Vegetation_252.jpg,Vegetation,Vegetation,0.35068026185035706,True
+Vegetation/Vegetation_253.jpg,Vegetation,Vegetation,0.7854312658309937,True
+Vegetation/Vegetation_254.jpg,Vegetation,Vegetation,0.5853503346443176,True
+Vegetation/Vegetation_255.jpg,Vegetation,Vegetation,0.8661224246025085,True
+Vegetation/Vegetation_26.jpg,Vegetation,Vegetation,0.9299690127372742,True
+Vegetation/Vegetation_260.jpg,Vegetation,Miscellaneous Trash,0.335075706243515,False
+Vegetation/Vegetation_261.jpg,Vegetation,Vegetation,0.6402432918548584,True
+Vegetation/Vegetation_267.jpg,Vegetation,Vegetation,0.8004447221755981,True
+Vegetation/Vegetation_270.jpg,Vegetation,Vegetation,0.9924558401107788,True
+Vegetation/Vegetation_276.jpg,Vegetation,Vegetation,0.9806204438209534,True
+Vegetation/Vegetation_279.jpg,Vegetation,Vegetation,0.9195401668548584,True
+Vegetation/Vegetation_286.jpg,Vegetation,Vegetation,0.9960311055183411,True
+Vegetation/Vegetation_299.jpg,Vegetation,Vegetation,0.8813349008560181,True
+Vegetation/Vegetation_3.jpg,Vegetation,Vegetation,0.9421062469482422,True
+Vegetation/Vegetation_305.jpg,Vegetation,Vegetation,0.9758544564247131,True
+Vegetation/Vegetation_327.jpg,Vegetation,Vegetation,0.9980770349502563,True
+Vegetation/Vegetation_332.jpg,Vegetation,Vegetation,0.9452582001686096,True
+Vegetation/Vegetation_342.jpg,Vegetation,Miscellaneous Trash,0.37697675824165344,False
+Vegetation/Vegetation_343.jpg,Vegetation,Vegetation,0.5287079811096191,True
+Vegetation/Vegetation_35.jpg,Vegetation,Vegetation,0.9807454347610474,True
+Vegetation/Vegetation_364.jpg,Vegetation,Vegetation,0.7019023299217224,True
+Vegetation/Vegetation_369.jpg,Vegetation,Vegetation,0.995125949382782,True
+Vegetation/Vegetation_37.jpg,Vegetation,Vegetation,0.854677140712738,True
+Vegetation/Vegetation_372.jpg,Vegetation,Vegetation,0.6156759262084961,True
+Vegetation/Vegetation_379.jpg,Vegetation,Vegetation,0.3863626718521118,True
+Vegetation/Vegetation_381.jpg,Vegetation,Vegetation,0.814833402633667,True
+Vegetation/Vegetation_390.jpg,Vegetation,Vegetation,0.7785537838935852,True
+Vegetation/Vegetation_406.jpg,Vegetation,Vegetation,0.8793671131134033,True
+Vegetation/Vegetation_409.jpg,Vegetation,Miscellaneous Trash,0.4109261929988861,False
+Vegetation/Vegetation_410.jpg,Vegetation,Metal,0.3186178207397461,False
+Vegetation/Vegetation_411.jpg,Vegetation,Miscellaneous Trash,0.41842415928840637,False
+Vegetation/Vegetation_430.jpg,Vegetation,Vegetation,0.8533214330673218,True
+Vegetation/Vegetation_434.jpg,Vegetation,Vegetation,0.46197694540023804,True
+Vegetation/Vegetation_52.jpg,Vegetation,Food Organics,0.9434592127799988,False
+Vegetation/Vegetation_55.jpg,Vegetation,Vegetation,0.5675169229507446,True
+Vegetation/Vegetation_57.jpg,Vegetation,Vegetation,0.8149219155311584,True
+Vegetation/Vegetation_6.jpg,Vegetation,Vegetation,0.8181461691856384,True
+Vegetation/Vegetation_61.jpg,Vegetation,Vegetation,0.6939328908920288,True
+Vegetation/Vegetation_68.jpg,Vegetation,Vegetation,0.7454671859741211,True
+Vegetation/Vegetation_73.jpg,Vegetation,Vegetation,0.5646277666091919,True
+Vegetation/Vegetation_74.jpg,Vegetation,Vegetation,0.9801004528999329,True
+Vegetation/Vegetation_89.jpg,Vegetation,Vegetation,0.9873369336128235,True
+Vegetation/Vegetation_93.jpg,Vegetation,Vegetation,0.975575864315033,True
+Vegetation/Vegetation_99.jpg,Vegetation,Vegetation,0.7689018249511719,True

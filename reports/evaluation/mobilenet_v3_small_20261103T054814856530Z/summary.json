@@ -1,0 +1,8 @@
+{
+  "model": "mobilenet_v3_small",
+  "run_id": "mobilenet_v3_small_20261103T054814856530Z",
+  "checkpoint_epoch": 5,
+  "test_images": 679,
+  "test_accuracy": 0.8424153166421208,
+  "test_macro_f1": 0.8504881301152675
+}

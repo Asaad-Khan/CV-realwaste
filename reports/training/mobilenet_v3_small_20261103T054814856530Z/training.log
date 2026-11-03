@@ -1,0 +1,15 @@
+2026-11-03 10:48:14,955 INFO: Run: mobilenet_v3_small_20261103T054814856530Z
+2026-11-03 10:48:14,956 INFO: Training images: 3394 | Validation images: 679
+2026-11-03 10:48:52,193 INFO: Epoch 01 | train loss 0.0589 | val loss 0.4403 | val accuracy 0.8527 | val macro F1 0.8520 | 37.2s
+2026-11-03 10:48:52,208 INFO: Saved improved checkpoint.
+2026-11-03 10:49:38,828 INFO: Epoch 02 | train loss 0.0384 | val loss 0.4854 | val accuracy 0.8527 | val macro F1 0.8549 | 46.6s
+2026-11-03 10:49:38,847 INFO: Saved improved checkpoint.
+2026-11-03 10:50:30,652 INFO: Epoch 03 | train loss 0.0299 | val loss 0.5013 | val accuracy 0.8424 | val macro F1 0.8432 | 51.8s
+2026-11-03 10:51:28,848 INFO: Epoch 04 | train loss 0.0295 | val loss 0.5459 | val accuracy 0.8395 | val macro F1 0.8373 | 58.2s
+2026-11-03 10:52:24,961 INFO: Epoch 05 | train loss 0.0259 | val loss 0.4781 | val accuracy 0.8645 | val macro F1 0.8656 | 56.1s
+2026-11-03 10:52:24,980 INFO: Saved improved checkpoint.
+2026-11-03 10:53:17,690 INFO: Epoch 06 | train loss 0.0278 | val loss 0.5369 | val accuracy 0.8409 | val macro F1 0.8468 | 52.7s
+2026-11-03 10:53:17,691 INFO: Best epoch: 5
+2026-11-03 10:53:17,691 INFO: Best validation macro F1: 0.8656
+2026-11-03 10:53:17,692 INFO: Checkpoint: artifacts\mobilenet_v3_small_20261103T054814856530Z\best.pt
+2026-11-03 10:53:17,692 INFO: Reports: reports\training\mobilenet_v3_small_20261103T054814856530Z
